@@ -1,0 +1,537 @@
+zamow_id;zamow_nr;klient_id;suma;koszt_produktow;rabat;koszt_dostawy;timestamp;status;notatki;uwagi;b_imie;b_nazwisko;b_adres1;b_adres2;b_adres3;b_miasto;b_kodpocztowy;b_kraj;email;telefon;dostaw;platnosci;dostawa_url;dostawa_nr;paczkomat;lang_code;ip_address;data_reali;data_przel;rodzaj_przel;plec
+2;KW-C51136;0;112,8;99,9;0.00;gru.90;1601106850;10;;"Prosze o f vat na dane:
+
+PHU JACKO Jacek Kulikowski
+Kobylin Kruszewo 19
+18-204 Kobylin Borzymy
+NIP 722-148-67-89";Jacek;Kulikowski;Kobylin Kruszewo ;19;;Kobylin Borzymy;18-204;14;jacoo2@wp.pl;698674441;3;1;;6,30553E+23;WZM02M;PL;46.169.183.149;30.09.2020;26.09.2020;1;M
+3;KW-FD25D9;0;192,7;179,8;0.00;gru.90;1601238326;10;;;Marta;Mulewska;Osiedle Złotej Jesieni;2c;68;Kraków;31-826;14;mulewska@gmail.com;511019157;3;1;;6,30553E+23;KRA11A;PL;195.150.184.12;30.09.2020;27.09.2020;1;K
+4;KW-82C6DA;0;102,8;89,9;0.00;gru.90;1601319537;10;;;Marcin ;Jędrzejczyk ;Mariana Wyrzykowskiego;5;106;Warszawa;03-142;14;marcinjd@gmail.com;604264378;3;1;;6,30553E+23;WAW120A;PL;5.173.160.121;30.09.2020;28.09.2020;1;M
+5;KW-76D73F;0;102,8;89,9;0.00;gru.90;1601462580;10;;Bardzo proszę o wysyłkę jak najszybciej , dziękuje. ;Marcin ;Sławik ;Krzywa ;3;6;Katowice ;40-061;14;natalia.leboch@gmail.com;797403116;3;1;;6,30552E+23;KAT32M;PL;89.25.172.174;02.10.2020;30.09.2020;1;M
+6;KW-0331F2;0;102,8;89,9;0.00;gru.90;1601573190;10;;;Agnieszka ;Kiercul ;Lubejki ;30;;TUROŚŃ kościelna ;18-106;14;agnieszka_kiercul@o2.pl;506768078;3;1;;6,1605E+23;KLE01ML;PL;37.47.13.115;05.10.2020;01.10.2020;1;K
+7;KW-486F83;0;102,8;89,9;0.00;gru.90;1601579891;10;;;Krzysztof;Rydel;Dzieci warszawy ;40a;Ochrona;Warszawa;02-495;14;rudegokrzysztof@gmail.com;722751473;3;1;;6,1605E+23;WAW128M;PL;5.173.185.52;05.10.2020;05.10.2020;2;M
+8;KW-67F336;0;179,8;179,8;0.00;0.00;1601589407;10;;;Piotr;Lizak;Obszerna;23;;Lodz;93-363;14;lizakkrav@gmail.com;662093410;3;1;;6,1605E+23;LOD33M;PL;31.183.245.123;05.10.2020;01.10.2020;1;M
+9;KW-8B68F8;0;102,8;89,9;0.00;gru.90;1601617035;10;;;Radosław ;Latos;Jana Pawła II ;33;63;Kraków;31-864;14;guzikf@gmail.com;732328824;3;1;;6,1605E+23;KRA45A;PL;89.73.47.180;05.10.2020;02.10.2020;1;M
+13;KW-E664A8;0;102,8;89,9;0.00;gru.90;1601655816;10;;"Witam! Proszę o jak najszybszą wysyłkę ;) ";Jacek;Krefft;Gdańska;21;;Trzepowo;83-047;14;martyna22kk@gmail.com;48517213626;3;1;;6,1605E+23;PZZ01E;PL;83.21.151.63;05.10.2020;02.10.2020;1;M
+14;KW-0EDB23;0;102,8;89,9;0.00;gru.90;1601796962;10;;;Maja;Skowron;Blaszana;2;105;Warszawa;03-703;14;mayaskowron@gmail.com;518895996;3;1;;6,1605E+23;WAW70N;PL;5.184.79.238;06.10.2020;04.10.2020;1;K
+15;KW-5A8B94;0;179,8;179,8;0.00;0.00;1601802165;10;;;Sławomir;Kelner;Ściegiennego;69;71;Kraków;30-809;14;slawek.kelner@gmail.com;606715244;3;1;;6,1605E+23;KRA08N;PL;95.155.68.111;06.10.2020;04.10.2020;1;M
+16;KW-3F1CAB;0;102,8;89,9;0.00;gru.90;1601811277;10;;;Krzysztof;Książek;Pogodna ;57/59;39;Poznań;60-137;14;krzysieniek@interia.pl;507280823;3;1;;6,1605E+23;POZ26M;PL;85.221.128.59;06.10.2020;04.10.2020;1;M
+17;KW-7E6E1D;0;269,7;269,7;0.00;0.00;1601818093;10;;"Proszę o wystawienie faktury:
+Zakład Malarsko-Tapeciarski
+Grzegorz Jędro
+Plac 1-go Maja 10
+88-190 Barcin
+NIP 5561143857";Tomasz;Jędro;Plac 1-go Maja;10;;Barcin;88-190;14;jedrus-17@wp.pl;691494743;3;1;;6,1605E+23;BCN02N;PL;5.173.184.212;06.10.2020;04.10.2020;2;M
+18;KW-5DB8EA;0;102,8;89,9;0.00;gru.90;1601841495;10;;;Marcin;Wilczek-Kurobiowski;Księdza Makarskiego;21;11;Brzeg;49-300;14;wilkur1981@gmail.com;791297334;3;1;;6,1605E+23;BRZ01M;PL;93.181.146.12;06.10.2020;04.10.2020;1;M
+19;KW-D05BBD;0;102,8;89,9;0.00;gru.90;1601849990;10;;;Kamil;Malicki;Unruga;90G;10;Gdynia;81-181;14;kamil.malicki10@gmail.com;607171483;3;1;;6,1605E+23;GDY01E;PL;83.8.243.104;06.10.2020;05.10.2020;1;M
+20;KW-453B59;0;102,8;89,9;0.00;gru.90;1601893554;10;;"Poproszę o fakturę vat
+
+CREW Logistic Production Support Szymon Pączek
+Ul. Rubinowa 32
+80-297 Banin
+NIP 957-074-94-55";Szymon;Pączek;Rubinowa;32;;Banino;80-297;14;biuro@crew.com.pl;502359910;3;1;;6,1605E+23;BAN01M;PL;91.221.214.161;06.10.2020;05.10.2020;1;M
+21;KW-F3F6E1;0;102,8;89,9;0.00;gru.90;1601893709;10;;;Anna;Stani;Obywatelska ;5;119;Warszawa ;02-409 ;14;as.anna.stani@gmail.com;503173336;3;1;;6,1605E+23;WAW23A;PL;195.191.162.154;06.10.2020;05.10.2020;1;K
+22;KW-4A5825;0;102,8;89,9;0.00;gru.90;1601912349;10;;;Łukasz ;Stromski;Sasankowa ;9;24;Juszkowo ;83-000;14;stromy87@gmail.com;668964718;3;1;;6,1605E+23;ROT01N;PL;178.235.184.1;06.10.2020;05.10.2020;1;M
+23;KW-4B474D;0;102,8;89,9;0.00;gru.90;1601919870;10;;;Barbara ;Bielecka ;Kamieńczyk ;11;;Międzylesie ;57-530;14;barbarabieleckak@gmail.com;48721029206;3;1;;6,1605E+23;MLS01N;PL;83.26.190.107;06.10.2020;05.10.2020;1;K
+24;KW-4C9DCE;0;102,8;89,9;0.00;gru.90;1601929293;10;;Z Góry Dziękuję;Mariusz;Grzesik;Solna;35;;Wieliczka;32-020;14;mmgrzesik@gmail.com;506792478;3;1;;6,1605E+23;WLC02M;PL;185.233.24.130;06.10.2020;05.10.2020;1;M
+25;KW-A5220F;0;179,8;179,8;0.00;0.00;1601978212;10;;;Julia;Godlewska;madalińskiego;69a;6;Warszawa;02-549;14;juliagodlewska1989@gmail.com;507892125;3;1;;6,1587E+23;WAW12M;PL;83.9.116.241;13.10.2020;06.10.2020;1;K
+26;KW-682205;0;179,8;179,8;0.00;0.00;1601987526;10;;;Jędrzej;Sosnowik;Mechaników;1A;85;Pruszków;05-800;14;jsosnowik@gmail.com;733132542;3;1;;6,1587E+23;PRU01M;PL;85.222.69.52;13.10.2020;06.10.2020;1;M
+27;KW-676138;0;179,8;179,8;0.00;0.00;1602013667;10;;;Agnieszka;Kiercul;Lubejki;30;30;Lubejki;18-106;14;Kontakt@plaaywood.com;506768078;3;1;;6,1587E+23;KLE01ML;PL;37.47.24.200;13.10.2020;06.10.2020;1;K
+28;KW-F1EBA9;0;102,8;89,9;0.00;gru.90;1602063759;10;;;Tomasz;Szymański;ul. Kamionkowska;19;U3;Warszawa;03-805;14;pompek@op.pl;501800708;3;1;;6,16051E+23;WAW192AP;PL;79.184.158.158;09.10.2020;07.10.2020;1;M
+29;KW-235EB7;0;102,8;89,9;0.00;gru.90;1602079677;10;;bylo by swietnie gdyby inpost byl na adres zamieszkania;Kamil;Macniak;Sulmin 150;150;;Sulmin;83-331 SULMIN;14;kamil@macniak.pl;693448589;3;1;;6,1587E+23;ZUK02N;PL;31.0.85.244;13.10.2020;07.10.2020;1;M
+30;KW-74E7AB;0;102,8;89,9;0.00;gru.90;1602084204;10;;;Magdalena;Isbrandt;Ulica Zielona 19 B;;;Myślenice;32-400;14;M.Isbrandt@wp.pl;602381093;3;1;;6,1587E+23;MSL01A;PL;46.174.3.153;13.10.2020;07.10.2020;1;K
+31;KW-342372;0;102,8;89,9;0.00;gru.90;1602102003;10;;;Tomasz;Sekutowicz;Jabłoni ;3;;Warszawa;03-071;14;tomasz.sekutowicz@omniamobilia.com;603196631;3;1;;6,16051E+23;WAW59A;PL;188.146.106.78;09.10.2020;07.10.2020;1;M
+32;KW-0D2BE9;0;102,8;89,9;0.00;gru.90;1602137127;10;;;Anna;Janczewska-Ściepko ;Chabrowa ;13 B;;Olmonty ;15-603;14;anna.janczewska-sciepko@o2.pl;533083975;3;1;;6,16051E+23;BIA16M;PL;37.249.213.183;09.10.2020;08.10.2020;1;K
+33;KW-6AF17F;0;359,6;359,6;0.00;0.00;1602150975;10;;;Aleksandra;Wiercińska;Dąbrowskiego ;3;;Pruszcz Gdański;83-000;14;aloa@vp.pl;501-536-701;3;1;;6,1587E+23;PGD02A;PL;84.10.163.254;13.10.2020;08.10.2020;1;K
+35;KW-F1848D;0;102,8;89,9;0.00;gru.90;1602155591;10;;;Stanisław;Grochowski;Kopernika 9/lok27;9;27;Białystok;15-377;14;cyprian63@wp.pl;662091112;3;1;;6,1587E+23;BIA05N;PL;94.254.228.236;13.10.2020;08.10.2020;1;M
+36;KW-E5C7FB;0;102,8;89,9;0.00;gru.90;1602162915;10;;;Sebastian;Trocki;os. Tysiąclecia;66;1;Poznań;61-255;14;cz75bsa@poczta.fm;666186210;3;1;;6,16051E+23;POZ48N;PL;5.173.232.177;09.10.2020;08.10.2020;1;M
+37;KW-C7001C;0;179,8;179,8;0.00;0.00;1602163788;10;;;Maciej;Baranowski;Mańkowo;68D;;Biała;09-411;14;maciek21281@gmail.com;697594550;3;1;;6,1587E+23;PLC05A;PL;37.248.154.231;13.10.2020;09.10.2020;2;M
+38;KW-0043CB;0;102,8;89,9;0.00;gru.90;1602165258;10;;;Sebazstian ;Kryjon;Rajsko;70a;;Opatówek;62-860;14;sebas007@o2.pl;694150372;3;1;;6,16051E+23;OPT01N;PL;79.162.217.142;09.10.2020;08.10.2020;1;M
+39;KW-6969C7;0;179,8;179,8;0.00;0.00;1602174929;10;;;michal;wolo;grunwaldzka;476;38;Gdańsk;80-309;14;sklep-cdp@wolonkiewi.cz;503443138;3;1;;6,1587E+23;GDA24N;PL;87.207.40.228;13.10.2020;09.10.2020;2;M
+40;KW-736E4C;0;179,8;179,8;0.00;0.00;1602176123;10;;;Anna;Dalecka ;Szkolna ;44;8;Reda ;84-240 ;14;anika198661@interia.pl;726361590;3;1;;6,1587E+23;RED01N;PL;46.151.141.17;13.10.2020;09.10.2020;2;K
+41;KW-9729D1;0;102,8;89,9;0.00;gru.90;1602178849;10;;;Kamil;Bętkowski;Niepodległości, 29m12;29;12;Częstochowa;42-200;14;kamilbetkowski2@gmail.com;733500160;3;1;;6,1587E+23;CZE11N;PL;89.64.32.92;13.10.2020;09.10.2020;2;M
+42;KW-F5A813;0;102,8;89,9;0.00;gru.90;1602179098;10;;;Magdalena;Jaszcz;Na Zaspę;23;2;Gdańsk;80-546 ;14;madziksz21@o2.pl;882-512-847 ;3;1;;6,1587E+23;GDA36N;PL;188.147.107.204;14.10.2020;09.10.2020;2;K
+43;KW-AEEDE0;0;102,8;89,9;0.00;gru.90;1602179892;10;;;Katarzyna ;Turek ;Czerniakowska ;127;71;Warszawa ;00-720 ;14;arczi87t@wp.pl;516528620;3;1;;6,1587E+23;WAW15N;PL;5.173.42.53;14.10.2020;08.10.2020;1;K
+45;KW-172015;0;102,8;89,9;0.00;gru.90;1602189131;10;;;Joanna;Bilińska ;Poprawna;90f;;Warszawa;03-984;14;jh.bilinska@gmail.com;502423003;3;1;;6,1587E+23;WAW237M;PL;37.30.49.252;14.10.2020;08.10.2020;1;K
+46;KW-4086B6;0;102,8;89,9;0.00;gru.90;1602189230;10;;;Jacek;Rajtar;Przemysłowa;4;13;Kraków;30-701;14;rajtar@gmail.com;579525705;3;1;;6,1587E+23;KRA01E;PL;85.237.161.62;14.10.2020;08.10.2020;1;M
+48;KW-CCFABC;0;102,8;89,9;0.00;gru.90;1602208586;10;;;Dawid;Kisiel;Południowa ;33i;4;Kiełczów;55-093;14;daw_id88@o2.pl;796648488;3;1;;6,1587E+23;KEI01M;PL;5.173.117.51;14.10.2020;09.10.2020;1;M
+49;KW-BEF29F;0;102,8;89,9;0.00;gru.90;1602249892;10;;;Justyna;Czwal;Bluszczańska;76;103;Warszawa;00-712;14;jczwal@op.pl;664739913;3;1;;6,1587E+23;WAW131A;PL;83.5.158.227;14.10.2020;09.10.2020;1;K
+50;KW-95BB48;0;102,8;89,9;0.00;gru.90;1602253400;10;;Proszę o wysylke do paczkomatu Ruciana 4 Lublin ;Aneta;Klepcarz ;Dziewanny;27;22;Lublin ;20-539;14;anetamaj00@gmail.com;697959974;3;1;;6,1587E+23;LUB05A;PL;89.64.30.111;14.10.2020;09.10.2020;1;K
+51;KW-ACD1FD;0;102,8;89,9;0.00;gru.90;1602255243;10;;Lokal saijo sushi;Marcin;Paczesny;Geodetów;23c;;Józefosław;05-500;14;paczak3@onet.pl;608194977;3;1;;6,1587E+23;JUZ02B;PL;188.146.226.14;14.10.2020;09.10.2020;1;M
+52;KW-44854D;0;179,8;179,8;0.00;0.00;1602255933;10;;;Małgorzata;Furtak;Zdrojowa;1a;;Wałbrzych;58-306;14;ceo@artpasaz.pl;519129900;3;1;;6,1587E+23;WAL03L;PL;5.173.248.76;14.10.2020;09.10.2020;1;K
+53;KW-91E17E;0;102,8;89,9;0.00;gru.90;1602256032;10;;;Kasia;Szalkiewicz;E. Plater;7;5;Gdańsk;80-522;14;szalkiewicz17@wp.pl;739202664;3;1;;6,1587E+23;GDA33N;PL;5.173.169.143;14.10.2020;12.10.2020;2;K
+54;KW-3DF20D;0;102,8;89,9;0.00;gru.90;1602259786;10;;;Grzegorz;Pukalski;Partyzantow;39;84;Gdynia;81-423;14;majkel24@wp.pl;517503420;3;1;;6,1587E+23;GDY36M;PL;46.175.229.135;14.10.2020;09.10.2020;1;M
+55;KW-1B216D;0;359,6;359,6;0.00;0.00;1602259968;10;;;Malgosia;Jurczak;Kościuszki 68;;;Jaworzyna Śląska;58-140;14;vip-cosmetics@o2.pl;575696978;3;1;;6,1587E+23;MII01D;PL;37.30.28.155;13.10.2020;09.10.2020;1;K
+56;KW-E22072;0;102,8;89,9;0.00;gru.90;1602260164;10;;;Adam;Głowienka;Dubois;10;36;Warszawa;00-188;14;adam@tranx.info;504566983;3;1;;6,1587E+23;WAW52N;PL;37.190.159.175;14.10.2020;09.10.2020;1;M
+57;KW-244652;0;102,8;89,9;0.00;gru.90;1602266511;10;;;Ewa;Szydłowska;Odkryta;51b;35;Warszawa;03-140;14;ematysiak.m@gmail.com;731833920;3;1;;6,1587E+23;WAW897;PL;89.64.74.229;13.10.2020;09.10.2020;1;K
+59;KW-5B1288;0;102,8;89,9;0.00;gru.90;1602269205;10;;Celbis;Marek;Kwietniewski;30 stycznia ;31;;TCZEW ;83-110;14;marek.kwietniewski1@wp.pl;504005892;3;1;;6,1587E+23;TCZ02N;PL;109.207.144.248;14.10.2020;09.10.2020;1;M
+60;KW-FBD7EB;0;179,8;179,8;0.00;0.00;1602269389;10;;;Maciej;Urbański;Puławska;138;4;Warszawa;02-624;14;maciej.urbanski@me.com;609680628;3;1;;6,1587E+23;WAW35A;PL;188.146.97.227;14.10.2020;09.10.2020;1;M
+62;KW-2CBCAD;0;102,8;89,9;0.00;gru.90;1602295929;10;;;Hubert;Dziergwa ;Wroclawska ;27;;Kępno;63-600;14;maszynydocieciapianki@gmail.com;723882783;3;1;;6,1587E+23;KEP01ML;PL;85.221.149.10;14.10.2020;10.10.2020;1;M
+63;KW-B0E201;0;102,8;89,9;0.00;gru.90;1602303889;10;;;Grzegorz ;Fortuna;Szpitalna;11b;2;Kup;46-082;14;gfo@o2.pl;697620605;3;1;;6,1587E+23;POO01F;PL;31.0.86.210;13.10.2020;10.10.2020;1;M
+64;KW-36B56A;0;102,8;89,9;0.00;gru.90;1602310034;10;;;Karol;Wyszyński;Skarbka z Gór;67A;24;Warszawa;03-287;14;karolwyszynski@gmail.com;692121570;3;1;;6,1587E+23;WAW13B;PL;37.47.16.249;14.10.2020;10.10.2020;1;M
+65;KW-D21FF8;0;102,8;89,9;0.00;gru.90;1602311894;10;;;Stanisław;Walaszczyk;Wrocławska;54;3;Krakow;30-011;14;swalaszczyk@o2.pl;606223507;3;1;;6,1587E+23;KRA24M;PL;188.147.44.120;13.10.2020;10.10.2020;1;M
+66;KW-D38883;0;102,8;89,9;0.00;gru.90;1602314658;10;;;Marcin;Rogalski;Nowowiejskiego;14b;12;Poznań;61-732;14;mro@wp.pl;503409602;3;1;;6,1587E+23;POZ08L;PL;77.65.93.84;14.10.2020;10.10.2020;1;M
+67;KW-398268;0;102,8;89,9;0.00;gru.90;1602315555;10;;;Grzegorz ;Chojnowski ;Wyspiańskiego ;23a;;Ząbki ;05-091 ;14;gregor.zabki@gmail.com;535307164;3;1;;6,1587E+23;ZBA02N;PL;5.172.235.177;14.10.2020;10.10.2020;1;M
+68;KW-4BFF50;0;102,8;89,9;0.00;gru.90;1602316090;10;;;Adam;Czarnecki;Conrada ;3d;73;Warsaw;01-922;14;bb.czarnecki@gmail.com;48666369813;3;1;;6,1587E+23;WAW39M;PL;83.142.199.206;13.10.2020;10.10.2020;1;M
+69;KW-218338;0;179,8;179,8;0.00;0.00;1602317874;10;;"Dzień dobry,
+Proszę o wystawienie FV na poniższe dane:
+FIRMA FILAR
+Bartosz Filar, Radosław Filar 
+ul. Czycza 1,32-065 Krzeszowice 
+NIP 676-01-07-362 ";Bartek ;Filar;Prochownia ;2;;KRZESZOWICE ;32-065 ;14;bartek@firmafilar.pl;602717571;3;1;;6,1587E+23;KRZ03M;PL;5.173.41.166;13.10.2020;10.10.2020;1;M
+70;KW-8041CB;0;179,8;179,8;0.00;0.00;1602320175;10;;;Marcin;Czarniecki;Komuny Paryskiej;23;;Sosnowiec;41-219;14;m.czarniecki@m-tel.pl;578626531;3;1;;6,1587E+23;SOS04M;PL;83.22.108.170;14.10.2020;10.10.2020;1;M
+71;KW-69B731;0;179,8;179,8;0.00;0.00;1602320236;10;;;Agnieszka;Sikora;Królewiecka;2;;Gdynia;81-329;14;asagnieszka1@o2.pl;506629169;3;1;;6,1587E+23;GDY05ML;PL;81.190.100.58;14.10.2020;10.10.2020;1;K
+72;KW-47754A;0;102,8;89,9;0.00;gru.90;1602320555;10;;;Andrzej ;Kostkowski ;Kobierzynska ;87;5;Kraków ;30-363 ;14;Kostkowski74@wp.pl;501451222;3;1;;6,1587E+23;KRA10N;PL;87.206.47.141;14.10.2020;12.10.2020;2;M
+73;KW-C4D0F9;0;179,8;179,8;0.00;0.00;1602321705;10;;;Alicja;Adamczuk;Teodora Tubmewa;9;4;Chróścina;48-320;14;alicja.adamczuk@o2.pl;501871114;3;1;;6,1587E+23;SKX01F;PL;5.173.41.43;14.10.2020;10.10.2020;1;K
+74;KW-D9C90A;0;102,8;89,9;0.00;gru.90;1602323541;10;;;Agnieszka;Sierosławska-Wróbel;Obrońców Wybrzeża ;6:00 AM;19;Gdańsk;80-398;14;agnesia79@wp.pl;604083962;3;1;;6,1587E+23;GDA14B;PL;178.19.179.244;16.10.2020;10.10.2020;1;K
+75;KW-667CE7;0;102,8;89,9;0.00;gru.90;1602325212;10;;;Szymon;Owczarek;Szarych Szeregów;7;20;Inowrocław;88-100;14;szymonciu1@gmail.com;692172771;3;1;;6,1587E+23;INO09N;PL;89.230.146.210;13.10.2020;10.10.2020;1;M
+76;KW-AC7F4F;0;102,8;89,9;0.00;gru.90;1602326162;10;;;Agnieszka ;Szorc ;Chodecka;16;114;Warszawa;03-350;14;agnieszka.szorc@gmail.com;500571080;3;1;;6,1587E+23;WAW32A;PL;89.64.88.76;13.10.2020;10.10.2020;1;K
+78;KW-0D4960;0;102,8;89,9;0.00;gru.90;1602329242;10;;;Katarzyna ;Patoleta;Bałuckiego ;27;8;Warszawa ;02-557;14;katarzyna.patoleta13@wp.pl;509191187;3;1;;6,1587E+23;WAW229AP;PL;95.40.195.201;16.10.2020;10.10.2020;1;K
+80;KW-905EC2;0;102,8;89,9;0.00;gru.90;1602335294;10;;;Paweł;Krupiński;Przyczółkowa;34a;;Warszawa Powsin;02-968;14;pkrupinski1916@gmail.com;606654373;3;1;;6,1587E+23;KJN01A;PL;188.146.233.203;16.10.2020;10.10.2020;1;M
+81;KW-A03687;0;102,8;89,9;0.00;gru.90;1602336422;10;;;Marek;Drozdzik;Zielona;1;;Nowe Miasteczko;67-124;14;zakupy99@yahoo.com;502896617;3;1;;6,1587E+23;NMS01A;PL;83.23.230.5;13.10.2020;10.10.2020;1;M
+83;KW-4439C5;0;102,8;89,9;0.00;gru.90;1602338668;10;;;Arkadiusz;Orzechowski;Lwowska;43;;Ścinawa;59-300;14;arek_orzechowski@wp.pl;667527808;3;1;;6,1587E+23;WRO911;PL;78.8.60.250;13.10.2020;10.10.2020;1;M
+84;KW-7935AA;0;102,8;89,9;0.00;gru.90;1602338755;10;;;Aleksander;Zieliński;Pułaskiego;20C;8;Lębork;84-300;14;zielinski.olek1988@gmail.com;796281229;3;1;;6,1587E+23;LEB02M;PL;178.235.177.6;16.10.2020;10.10.2020;1;M
+85;KW-0F75F6;0;102,8;89,9;0.00;gru.90;1602344722;10;;;Tomasz;Groń;Twardowskiego;95;;Kraków;30-346;14;tomasz.gron@yahoo.com;732882400;3;1;;6,1587E+23;KRA32A;PL;83.26.232.171;14.10.2020;10.10.2020;1;M
+86;KW-DF68F5;0;102,8;89,9;0.00;gru.90;1602347395;10;;;Tomasz;Arcab;Startowa;25d;16;Gdańsk;80-461;14;tomasz.arcab@gmail.com;888649359;3;1;;6,1587E+23;GDA29N;PL;37.47.243.62;16.10.2020;10.10.2020;1;M
+87;KW-171073;0;102,8;89,9;0.00;gru.90;1602349266;10;;;Milena;Urbańska;Grzybowa;21e;1;Łajski;05-120;14;mil.urbanska@gmail.com;799133601;3;1;;6,1587E+23;LGE03AP;PL;188.146.232.195;13.10.2020;10.10.2020;1;K
+88;KW-E1660F;0;269,7;269,7;0.00;0.00;1602349680;10;;;Agnieszka Goscinska;Wzrokownia salon optyczny;Grobla Świetego Jerzego ;;13;Elbląg;82-300;14;agnieszka.goscinska@wp.pl;665505855;3;1;;6,1587E+23;ELB03M;PL;188.147.106.108;16.10.2020;10.10.2020;1;K
+89;KW-291F75;0;359,6;359,6;0.00;0.00;1602351976;10;;;Mateusz;Piatek;Teligi ;31;;Wołomin;05-200;14;frugola.hurtownia@wp.pl;792248992;3;1;;6,1587E+23;WOL02N;PL;37.47.58.77;16.10.2020;10.10.2020;1;M
+90;KW-328B59;0;102,8;89,9;0.00;gru.90;1602353699;10;;;Norbert;Lewko;Scaleniowa;25;74;Białystok;15-780;14;norbertlewko@gmail.com;796878844;3;1;;6,1587E+23;BIA06A;PL;89.161.69.142;13.10.2020;10.10.2020;1;M
+92;KW-27A4A5;0;102,8;89,9;0.00;gru.90;1602354853;10;;;Damian;Jaśkiewicz ;Wiewiórcza ;66;;Białystok;15-532;14;dejczuk@gmail.com;533808880;3;1;;6,1587E+23;CRS01N;PL;109.231.32.28;13.10.2020;10.10.2020;1;M
+93;KW-5A601D;0;102,8;89,9;0.00;gru.90;1602356018;10;;;Piotr;Jonasz;Waliców;20;506;Warszawa;00-851;14;p.j1973@interia.pl;502110710;3;1;;6,1587E+23;WAW69N;PL;79.184.140.58;13.10.2020;10.10.2020;2;M
+95;KW-FA90C8;0;102,8;89,9;0.00;gru.90;1602361090;10;;;Michał;Samborski;Strzelnicza ;14a;13;Rzeszów ;35-103;14;biuro@streetlife.rzeszow.pl;795608316;3;1;;6,1587E+23;RZE14A;PL;188.146.224.214;16.10.2020;10.10.2020;1;M
+96;KW-D64139;0;102,8;89,9;0.00;gru.90;1602361319;10;;;Łukasz ;Darłak ;Kuczkowskiego ;1;1U;Kraków ;31-616;14;darusdarlal85@gmail.com;792700026;3;1;;6,1587E+23;KRA73M;PL;188.146.39.220;16.10.2020;10.10.2020;1;M
+97;KW-892035;0;179,8;179,8;0.00;0.00;1602364756;10;;;Maciej;Grażulis;Nałęczowska;1;-;Warszawa;02-922;14;maciej.grazulis@gmail.com;608484435;3;1;;6,1587E+23;WAW152A;PL;188.146.96.131;13.10.2020;10.10.2020;1;M
+98;KW-DB548A;0;102,8;89,9;0.00;gru.90;1602369460;10;;;Daniel;Bardel;B.Chrobrego;10;3;Żary;68-200;14;Daaniel21@o2.pl;664046958;3;1;;6,1587E+23;ZAR01L;PL;31.60.70.154;16.10.2020;11.10.2020;2;M
+99;KW-9AAC89;0;102,8;89,9;0.00;gru.90;1602370768;10;;;Damian ;Kwaśnica ;Niepodległość ;55;1;Gardno ;74-100;14;k.damian@wp.pl;692337910;3;1;;6,1587E+23;GAD01N;PL;85.202.48.68;16.10.2020;11.10.2020;1;M
+102;KW-FE84F9;0;269,7;269,7;0.00;0.00;1602405196;10;;;Rafal;Kisiel;Belgradzka;3;139;Warszawa;02-793;14;r.kisiel@eurotrans.waw.pl;509912967;3;1;;6,1587E+23;WAW92A;PL;83.24.250.131;16.10.2020;11.10.2020;1;M
+103;KW-8B9B20;0;102,8;89,9;0.00;gru.90;1602405706;10;;;Radek ;Grubecki ;Solidarnosci ;13;18;Rzeszów ;35-082 ;14;Karat.karat@wp.pl;508383087;3;1;;6,1587E+23;RZE01M;PL;31.60.229.7;14.10.2020;11.10.2020;1;M
+105;KW-287B16;0;102,8;89,9;0.00;gru.90;1602410628;10;;;Monika;Fliśnik;Kasprzaka;28;132;Dąbrowa Górnicza;41-303;14;mimi0709@tlen.pl;535456204;3;1;;6,1587E+23;DGO319;PL;89.64.53.77;14.10.2020;11.10.2020;1;K
+106;KW-0515AE;0;102,8;89,9;0.00;gru.90;1602411904;10;;;Grzegorz ;Strzelczyk ; ul.klapacz;46;;Stare Siołkowice;46-083;14;mstrzelczyk7@gmail.com;888530895;3;1;;6,1587E+23;PPL01N;PL;194.29.183.14;14.10.2020;11.10.2020;1;M
+107;KW-62A30A;0;102,8;89,9;0.00;gru.90;1602419899;10;;;DOROTA;MAKAĆ;Aleja Rzeczypospolitej ;18;12;Warszawa;02-972;14;d.makac@gmail.com;503144180;3;1;;6,1587E+23;WAW53M;PL;84.10.176.152;14.10.2020;11.10.2020;1;K
+108;KW-5B9171;0;102,8;89,9;0.00;gru.90;1602422814;10;;;Marcin;Wiśniewski;Dmowskiego;50;;Sosnowiec;41-219;14;shery1706@onet.pl;500444904;3;1;;6,1587E+23;SOS07M;PL;31.0.84.192;14.10.2020;11.10.2020;1;M
+109;KW-EAC5D3;0;179,8;179,8;0.00;0.00;1602427935;10;;;Arkadiusz;Wielgus;Stefana Starzyńskiego 2;2;27;Częstochowa;42-224;14;arkadiusz.wielgus75@gmail.com;600158999;3;1;;6,1587E+23;CZE21M;PL;185.48.168.132;16.10.2020;11.10.2020;1;M
+110;KW-ECF0E9;0;102,8;89,9;0.00;gru.90;1602434635;10;;;Michał;Szyjka;Władysława Łokietka;16b;2;Siemianowice Śląskie;41-106;14;michal.szyjka@gmail.com;48510155855;3;1;;6,1587E+23;SIS02N;PL;87.206.65.86;14.10.2020;11.10.2020;1;M
+111;KW-C56C5B;0;179,8;179,8;0.00;0.00;1602435734;10;;;Ryszard;Gryzło;Wschodnia;24;;Rogów Sobócki;55-050;14;ryszard-gryzlo@wp.pl;721704122;3;1;;6,1587E+23;RGS01G;PL;37.30.23.27;16.10.2020;11.10.2020;1;M
+112;KW-67E6B7;0;102,8;89,9;0.00;gru.90;1602438862;10;;;Jacek;Krause;Kaczeńcowa;6;25;Lublin;20-543;14;jacek.krause@gmail.com;603171625;3;1;;6,1587E+23;LUB02A;PL;5.60.153.203;14.10.2020;11.10.2020;1;M
+113;KW-8FA5F5;0;179,8;179,8;0.00;0.00;1602442799;10;;;Małgorzata;Piela;Miła;25;73;Warszawa;01-033;14;malgorzata@piela.pl;660573441;3;1;;6,1587E+23;WAW07AP;PL;89.64.79.21;14.10.2020;11.10.2020;1;K
+114;KW-F67361;0;102,8;89,9;0.00;gru.90;1602445537;10;;;Damian;Kurczyna;Drohobycka;45;9;Wrocław;54-620;14;dayayorat@gmail.com;501204846;3;1;;6,1587E+23;WRO75M;PL;31.11.130.73;14.10.2020;11.10.2020;1;M
+116;KW-36E624;0;102,8;89,9;0.00;gru.90;1602477795;10;;;Grzegorz ;Zwarycz; Polna ;25;;Bytom Odrzański ;67-115 ;14;zwaryczg@gmail.com;515 555 572;3;1;;6,1587E+23;BOD01M;PL;5.173.253.224;16.10.2020;12.10.2020;2;M
+117;KW-92B4F7;0;102,8;89,9;0.00;gru.90;1602482978;10;;;Luiza;Piórko;Anieli krzywon;4;31;Warszawa;01-391;14;mojlogin123@gmail.com;601135973;3;1;;6,1587E+23;WAW31M;PL;89.64.79.255;14.10.2020;12.10.2020;1;K
+118;KW-0E2879;0;179,8;179,8;0.00;0.00;1602483442;10;;;Joanna ;Cybulska;Bratnia ;67;;Czestochowa;42-200;14;babylovesklep@gmail.com;508292737;3;1;;6,1587E+23;CZE16M;PL;188.146.57.51;16.10.2020;12.10.2020;1;K
+119;KW-C5993A;0;269,7;269,7;0.00;0.00;1602489094;10;;;Wioleta;Kopycka;Inzynierska ;107;1;Gdynia;81-529;14;wioleta19-88@o2.pl;508679520;3;1;;6,1587E+23;GDY01HO;PL;5.173.25.70;14.10.2020;12.10.2020;1;K
+120;KW-79099B;0;179,8;179,8;0.00;0.00;1602489152;10;;;Marlena ;Bekus;Michałowskiego ;22;4;Częstochowa ;42-224;14;marlenabekus@gmail.com;663 537 621;3;1;;6,1587E+23;CZE09A;PL;212.96.241.3;16.10.2020;14.10.2020;2;K
+121;KW-32512B;0;102,8;89,9;0.00;gru.90;1602490021;10;;;Kornelia;Tyczka;W.Łokietka;11F/7;11F/7;Bytom;41-933;14;kornelia.plewka@interia.pl;506917241;3;1;;6,1587E+23;BYT06M;PL;89.151.40.73;16.10.2020;12.10.2020;1;K
+122;KW-AB991D;0;179,8;179,8;0.00;0.00;1602492888;10;;;Paweł;Doncbach;Idzikowskiego;2d;37;Warszawa;07-100;14;pawel.doncbach@op.pl;513390077;3;1;;6,1587E+23;WAW134A;PL;5.173.148.47;16.10.2020;12.10.2020;1;M
+123;KW-7952D1;0;102,8;89,9;0.00;gru.90;1602497832;10;;;Ela;Aleksandrowicz;Przydroże Wielkie;19;;Korfantów;48-317;14;aleksandrowiczela0@gmail.com;606305901;3;1;;6,15871E+23;KOF01A;PL;176.111.131.218;21.10.2020;12.10.2020;1;K
+124;KW-911C02;0;179,8;179,8;0.00;0.00;1602498455;10;;;Dagmara;Schier;Mieszka I;5;86;KATOWICE;40-877;14;dagmara.sch@gmail.com;508576428;3;1;;6,1587E+23;KAT08M;PL;95.215.22.154;14.10.2020;12.10.2020;1;K
+125;KW-726836;0;102,8;89,9;0.00;gru.90;1602499122;10;;;Piotr;Łukaszewski;Elektoralna;19;2;Warszawa;00-137;14;plukaszewski@tlen.pl;789278885;3;1;;6,15871E+23;CHM04A;PL;195.238.187.94;21.10.2020;12.10.2020;1;M
+126;KW-A95B8C;0;102,8;89,9;0.00;gru.90;1602499720;10;;;Marek;Śliwkowski;Zawodowa;13;;Warszawa;04-419;14;m.sliwkowski@wp.pl;693413300;3;1;;6,1587E+23;WAW130M;PL;95.41.57.147;14.10.2020;12.10.2020;1;M
+127;KW-AF496B;0;179,8;179,8;0.00;0.00;1602502532;10;;;Michał ;Chamot ;Grobla;12;;Karczów;49-120;14;umchamo85@gmail.com;667427190;3;1;;6,1587E+23;LOI01L;PL;37.248.214.150;16.10.2020;12.10.2020;1;M
+128;KW-B684DF;0;179,8;179,8;0.00;0.00;1602504835;10;;;Dariusz;Zborowski;Sieroca;9;28;Lublin;20-089;14;jrg1lb@o2.pl;509626885;3;1;;6,1587E+23;LUB07N;PL;212.182.80.173;16.10.2020;12.10.2020;1;M
+129;KW-EE6A83;0;179,8;179,8;0.00;0.00;1602522127;10;;;Jakub;ŻOŁĘDZIEWSKI;Rozniszew;25a;;Magnuszew;26-910;14;kuba@nasiona-holenderskie.pl;501 932 402;3;1;;6,1587E+23;WRK01A;PL;31.0.121.147;14.10.2020;12.10.2020;1;M
+130;KW-E4C9FB;0;102,8;89,9;0.00;gru.90;1602523597;10;;;ŁUKASZ;Czapla;Chełmońskiego ;1;;Ząbki;05-091;14;lukeheron@legionista.com;791682278;3;1;;6,15871E+23;ZBA01A;PL;83.28.245.86;21.10.2020;15.10.2020;2;M
+133;KW-4732E6;0;179,8;179,8;0.00;0.00;1602529232;10;;;Agnieszka;Wrońska;Antona Haeringa;14;;Piotrków Tryb.;97-300;14;aga_maj@amorki.pl;504832385;3;1;;6,1587E+23;PTR03N;PL;37.248.160.46;16.10.2020;12.10.2020;1;K
+134;KW-904B7B;0;179,8;179,8;0.00;0.00;1602529822;10;;;Alicja;Jakubowska;Zjednoczenia;22B;;Biedrusko;62-003;14;delta.jakubowska@gmail.com;604660096;3;1;;6,1587E+23;BID01A;PL;37.47.139.232;14.10.2020;12.10.2020;1;K
+135;KW-166AF4;0;102,8;89,9;0.00;gru.90;1602530889;10;;;MARTA;BEŚCIAK;ORKANA;58a;;TARNÓW;33-100;14;marta.besciak@gmail.com;782201711;3;1;;6,1587E+23;TAR05M;PL;31.0.41.155;19.10.2020;12.10.2020;1;K
+136;KW-65154F;0;102,8;89,9;0.00;gru.90;1602531967;10;;;Błażej;Urbaniak;Nowodworska ;31;7;Wrocław;54-433;14;blazej.art@gmail.com;503099048;3;1;;6,1587E+23;WRO38N;PL;89.151.36.141;16.10.2020;12.10.2020;1;M
+137;KW-21A77D;0;179,8;179,8;0.00;0.00;1602533794;10;;;Marcin;Wojtkowski;Grzybowa;27;27;Ostrów Wielkopolski;63-400;14;marcin.wojtkowski@o2.pl;535111928;3;1;;6,1587E+23;OWI13N;PL;217.173.6.40;16.10.2020;12.10.2020;1;M
+138;KW-F9A735;0;102,8;89,9;0.00;gru.90;1602572604;10;;;Paweł;Niemyjski;Bandurskiego;22A;33;Marki;05-270;14;niemyjs@interia.pl;601194754;3;1;;6,15871E+23;MAR05N;PL;31.0.43.47;21.10.2020;13.10.2020;1;M
+139;KW-DDE68C;0;102,8;89,9;0.00;gru.90;1602574341;10;;;Adam;Kalisz;Staszica;11;31;Krosno;38-400;14;kingamunzberger@gmail.com;575490148;3;1;;6,15871E+23;KRO07N;PL;5.173.84.15;21.10.2020;13.10.2020;1;M
+141;KW-8AED68;0;102,8;89,9;0.00;gru.90;1602578103;10;;;grzegorz;wrona;Tamka;40/72;72;Warszawa;01-355;14;wronagrzegorz24@gmail.com;794750543;3;1;;6,1587E+23;WAW95M;PL;37.47.2.57;16.10.2020;13.10.2020;1;M
+142;KW-286001;0;102,8;89,9;0.00;gru.90;1602580921;10;;;Tomasz;Zielonka;Łukaszewicza;23;1;Poznań;60-729;14;tziel1978@gmail.com;607568307;3;1;;6,1587E+23;POZ60N;PL;83.20.161.42;14.10.2020;13.10.2020;1;M
+143;KW-3D119E;0;102,8;89,9;0.00;gru.90;1602583385;10;;Proszę o fakturę na dane Zacisze Martuchy Marta Król NIP 1180582380. Adres ten sam co wysyłka;Marta;Król;Joachimów Mogiły;16a;;Bolimów;99-417;14;mertek@onet.eu;504774077;3;1;;6,1587E+23;BOI01G;PL;5.173.201.218;16.10.2020;13.10.2020;1;K
+144;KW-818EC6;0;102,8;89,9;0.00;gru.90;1602585124;10;;;agnieszka;grajda;gadka ul. strażacka;89;;kołbiel;05-340;14;agnieszka_grajda@poczta.fm;603279430;3;1;;6,1587E+23;KBE01N;PL;46.76.212.179;14.10.2020;13.10.2020;1;K
+145;KW-8034D6;0;179,8;179,8;0.00;0.00;1602586683;10;;;Tomasz;Tomaszewicz;Guderskiego;20;8;Gdańsk;80-180;14;t.t.communications1@gmail.com;501873989;3;1;;6,15871E+23;GDA21A;PL;5.173.8.211;21.10.2020;13.10.2020;1;M
+148;KW-2283F1;0;102,8;89,9;0.00;gru.90;1602588508;10;;;Hanna;Foelkner ;Uzdrowiskowa ;8;;Jastrzębia Góra ;84-104;14;hannareszka@wp.pl;514643160;3;1;;6,1587E+23;JAG01M;PL;188.147.97.69;19.10.2020;13.10.2020;1;K
+149;KW-3B6F5C;0;102,8;89,9;0.00;gru.90;1602594772;10;;;Adam;Adasiewicz;Żeglugi Wiślanej;8;2;Warszawa;03-043;14;adam.adasiewicz@gmail.com;600972913;3;1;;6,1587E+23;WAW199AP;PL;79.184.238.22;14.10.2020;13.10.2020;1;M
+150;KW-C31872;0;102,8;89,9;0.00;gru.90;1602597262;10;;poporosze jasno szarą ;Martyna;Miłek;Trembeckiego, 11, 3, 4;5;5;Rzeszów;35-234;14;biuro@m-pole.pl;791870977;3;1;;6,1587E+23;RZE07M;PL;91.246.66.159;14.10.2020;13.10.2020;1;K
+153;KW-08C3C1;0;102,8;89,9;0.00;gru.90;1602600264;10;;;Piotr;Nowakowski;Czwartaków ;3;13;Gdynia;81-115;14;p.nowakowski@my.com;48793499956;3;1;;6,1587E+23;GDY11A;PL;81.190.63.246;14.10.2020;13.10.2020;1;M
+154;KW-B29D03;0;102,8;89,9;0.00;gru.90;1602603556;10;;;Tomasz;Ruszkowski;Kazimierza Górskiego;19;;Chylice;96-313;14;theworldismine22@wp.pl;570100420;3;1;;6,1587E+23;JTW01A;PL;31.0.127.145;16.10.2020;13.10.2020;1;M
+155;KW-4DEDFD;0;102,8;89,9;0.00;gru.90;1602607027;10;;;Krzysztof;Jakubowski;Orzechowa;43;25;Wrocław;50-540;14;djcj007@o2.pl;537008614;3;1;;6,1587E+23;WRO55M;PL;5.173.249.206;16.10.2020;13.10.2020;1;M
+156;KW-5E43AF;0;102,8;89,9;0.00;gru.90;1602607916;10;;;Anita ;Banaś ;Kluczborska ;50;86;Kraków ;31-271 ;14;banasanita@gmail.com;48502291390;3;1;;6,15871E+23;KRA23A;PL;217.96.201.201;21.10.2020;13.10.2020;1;K
+157;KW-D9EE75;0;179,8;179,8;0.00;0.00;1602610492;10;;"Witam,
+Jeśli jest możliwość prosiłabym o wystawienie faktury na dane: 
+DeNitro Film Łukasz Pawlusiewicz
+Ul. Okocimska 3m.194
+01-114 Warszawa
+NIP 527 239 55 58";Kaja;Wójcik;Okocimska;3;194;Warszawa;01-114;14;kajaw1@wp.pl;798993149;3;1;;6,15871E+23;WAW117A;PL;37.47.24.73;21.10.2020;13.10.2020;1;K
+158;KW-B1AA08;0;102,8;89,9;0.00;gru.90;1602614575;10;;Ciężko było określić mi kolor w zamówieniu chodzi mi o tą ciemną szarą ;Wioleta;Tataryn;Małowice;55;;Małowice;56-160;14;wioleta.tataryn@gmail.com;888679972;3;1;;6,1587E+23;SCI01M;PL;31.60.12.61;16.10.2020;13.10.2020;1;K
+160;KW-F5D673;0;102,8;89,9;0.00;gru.90;1602615670;10;;;Arkadiusz ;Cieślak ;Ignacego Krasickiego ;3c;2;Słupno;05-250;14;aro1608@interia.eu;512161760;3;1;;6,1587E+23;SUP01A;PL;5.173.162.241;16.10.2020;13.10.2020;1;M
+161;KW-F282B1;0;102,8;89,9;0.00;gru.90;1602617717;10;;;Łukasz;Maślankowski;Gajowa;29;12;Bydgoszcz;85-087;14;lukasz@mac.com;501570697;3;1;;6,1587E+23;BYD27A;PL;89.151.39.212;14.10.2020;13.10.2020;1;M
+162;KW-D07DEF;0;102,8;89,9;0.00;gru.90;1602618265;10;;;Jerzy;Walczak;Łużycka ;49;;Czestochowa;42-200;14;magdawalczak@onet.eu;510112101;3;1;;6,15871E+23;CZE11M;PL;91.234.102.173;21.10.2020;13.10.2020;1;M
+163;KW-C6A6A9;0;102,8;89,9;0.00;gru.90;1602619037;10;;;Emil;Boruta;Aluzyjna;21e;313;Warszawa ;03-149 ;14;drift-03@o2.pl;693-342-674 ;3;1;;6,15871E+23;WAW168M;PL;37.248.211.40;19.10.2020;15.10.2020;2;M
+164;KW-587A07;0;102,8;89,9;0.00;gru.90;1602624827;10;;;Ernest;Czarnecki;Jesionowa 4;4;1;Kielce;25-440;14;e.czarnecki@o2.pl;790205911;3;1;;6,1587E+23;KIE08A;PL;89.151.43.248;16.10.2020;13.10.2020;1;M
+165;KW-A03E3C;0;102,8;89,9;0.00;gru.90;1602659555;10;;;Daniel ;Pieszak ;Moniuszki ;11B;5;Głubczyce ;48-100;14;dpieszk0@gmail.com;663911702;3;1;;6,1587E+23;GLB01A;PL;83.3.147.250;14.10.2020;14.10.2020;1;M
+166;KW-4DEF34;0;179,8;179,8;0.00;0.00;1602666394;10;;;Magdalena;Pal;Ligonia ;21F;;Koszęcin;42-286;14;mlena.pal@gmail.com;48577778774;3;1;;6,15871E+23;KSZ01M;PL;5.173.121.89;19.10.2020;15.10.2020;2;K
+167;KW-3DF2CC;0;102,8;89,9;0.00;gru.90;1602669807;10;;;Grzegorz;Wasilewski;Przestrzenna;26;7;Wrocław;50-533;14;gregor.wasilewski@gmail.com;510798888;3;1;;6,1587E+23;WRO67M;PL;80.245.177.133;16.10.2020;14.10.2020;1;M
+168;KW-939E65;0;102,8;89,9;0.00;gru.90;1602677057;10;;;Andrzej;Sagan;Chołoniewskiego;33;1;Bydgoszcz;85-127;14;ceben755@wp.pl;695844172;3;1;;6,1587E+23;BYD33N;PL;31.0.66.212;19.10.2020;14.10.2020;1;M
+171;KW-245962;0;102,8;89,9;0.00;gru.90;1602682491;10;;;Mateusz ;Sierociński ;Ogrody Romanów ;60;;Łódź ;91-174 ;14;m.p.sierocinski@gmail.com;602 200 207;3;1;;6,1587E+23;ALL01A;PL;188.146.239.119;16.10.2020;14.10.2020;1;M
+172;KW-AB631B;0;102,8;89,9;0.00;gru.90;1602685833;10;;;Arkadiusz;Grodzki;Ostrobramska ;73c;8;Warszawa;04-175;14;a.grodzki1@gmail.com;531407171;3;1;;6,1587E+23;WAW40A;PL;45.142.162.49;16.10.2020;14.10.2020;1;M
+173;KW-75B0DE;0;102,8;89,9;0.00;gru.90;1602685989;10;;"Poprosze fakturę na numer nip: 5742070441
+Adres jak w zamówieniu
+
+";Tomasz;Zych;Kłobucka;63;;Gruszewnia;42-125;14;donatazych@o2.pl;731291135;3;1;;6,1587E+23;KBU01N;PL;94.254.184.78;16.10.2020;14.10.2020;1;M
+174;KW-6E36AA;0;102,8;89,9;0.00;gru.90;1602689557;10;;;Radosław;Paczyński;Kaczorowskiego 7a;7a;1;Chodzież;64-800;14;zzr.paczynski@gmail.com;660297327;3;1;;6,1587E+23;CHD02N;PL;77.45.42.170;16.10.2020;14.10.2020;1;M
+175;KW-2681F6;0;102,8;89,9;0.00;gru.90;1602698800;10;;;Jolanta ;Otocka;Wjazdowa ;2A;6;Międzychód ;64-400;14;norizz.pmi@gmail.com;727938249;3;1;;6,1587E+23;MID03N;PL;37.47.149.11;16.10.2020;14.10.2020;1;K
+176;KW-D67BBE;0;102,8;89,9;0.00;gru.90;1602699265;10;;;Aleksander;Chimiak;Modrzewie;1a;;Goleniów;72100;14;a.chimiak@vp.pl;509861948;3;1;;6,1587E+23;GOL01M;PL;37.47.180.183;16.10.2020;14.10.2020;1;M
+178;KW-9348EC;0;102,8;89,9;0.00;gru.90;1602703064;10;;;Maciej;Bartkiewicz ;Mławska;12;;Ciechanów ;06-400 ;14;maciej-bartkiewicz@wp.pl;501545447;3;1;;6,1587E+23;CIE02A;PL;185.242.152.254;19.10.2020;14.10.2020;1;M
+179;KW-991486;0;102,8;89,9;0.00;gru.90;1602709140;10;;;Rafał ;Musiał ;Sikorskiego ;32;7;Czarnków ;64-700 ;14;cichy3300@wp.pl;734131869;3;1;;6,1587E+23;CZA01N;PL;82.132.243.125;16.10.2020;14.10.2020;1;M
+180;KW-48AA0A;0;102,8;89,9;0.00;gru.90;1602710131;10;;;Wojciech;Hajnus;Botewa;4E;192;Warszawa;03-127;14;wojciech.hajnus@gmail.com;602383242;3;1;;6,1587E+23;WAW61M;PL;188.146.99.17;16.10.2020;14.10.2020;1;M
+181;KW-722148;0;102,8;89,9;0.00;gru.90;1602744759;10;;;Kinga;Kocoń;Komorowicka;82;15;Bielsko-Biała;43-300;14;Kingusiek001@interia.pl;668871988;3;1;;6,15871E+23;BBI01A;PL;83.22.181.127;19.10.2020;15.10.2020;1;K
+182;KW-EAF010;0;179,8;179,8;0.00;0.00;1602746778;10;;"Witam, Bardzo proszę o wystawienie faktury na czapeczki na dane:
+Zakład Utrzymania Miasta, ul Sobieskiego 75A, 96-100 Skierniewice, NIP 836-15-55-545
+
+Pozdrawiam :) ";Dominik;Felczak;Sobieskiego;75A;;Skierniewice;96-100;14;dominik.felczak@gmail.com;661623777;3;1;;6,15871E+23;SKI03M;PL;91.214.3.187;19.10.2020;15.10.2020;1;M
+185;KW-64CDAA;0;102,8;89,9;0.00;gru.90;1602749254;10;;;Piotr;Łukaszewski;Elektoralna;19;2;Warszawa;00-137;14;plukaszewski@tlen.pl;519160564;3;1;;6,15871E+23;CHM04A;PL;195.238.187.94;19.10.2020;15.10.2020;1;M
+187;KW-C18ECD;0;179,8;179,8;0.00;0.00;1602755487;10;;;Robert ;Stępniewicz ;Zdrojowa ;20;7;Lądek Zdrój ;57-540;14;rdstravel@o2.pl;795512012;3;1;;6,15871E+23;LZD01A;PL;88.156.129.130;19.10.2020;15.10.2020;2;M
+188;KW-AE4CF6;0;179,8;179,8;0.00;0.00;1602756296;10;;;Krzysztof;Makowski;Legionów;15;29;Łódź;91-069;14;makowskik@o2.pl;511346303;3;1;;6,15871E+23;LOD60M;PL;83.15.199.114;19.10.2020;15.10.2020;1;M
+189;KW-3E7D3F;0;179,8;179,8;0.00;0.00;1602758753;10;;;Jacek;Zborowski;Kolumny;86b;;Łódź;93-610;14;perfectteam.jz@gmail.com;790233625;3;1;;6,15871E+23;LOD22N;PL;31.0.122.131;19.10.2020;15.10.2020;1;M
+190;KW-EDD55E;0;102,8;89,9;0.00;gru.90;1602760031;10;;"Szanowni Państwo, proszę o przesłanie faktury/paragonu wyłącznie drogą mailową ponieważ zamówienie jest prezentem urodzinowym.
+z poważaniem,
+Magdalena Kuchciak
+magda.kuchciak@gmail.com
+Tel: 694012183";Magdalena ;Kuchciak;Grafitowa ;6;;Pruszków;05-800;14;magda.kuchciak@gmail.com;694012183;3;1;;6,15871E+23;OTW03A;PL;83.5.236.131;19.10.2020;15.10.2020;1;K
+191;KW-3DB9BA;0;102,8;89,9;0.00;gru.90;1602762534;10;;;Anna;Syty;Pileckiego;6;85;Białystok;15-687;14;annpap5@wp.pl;666327885;3;1;;6,15871E+23;BIA09N;PL;91.145.188.148;19.10.2020;15.10.2020;1;K
+192;KW-6D9362;0;102,8;89,9;0.00;gru.90;1602762836;10;;;Adam;Sosiński;Krzesiny;3;;Poznań;61-321;14;adam.pcpomoc@gmail.com;663650780;3;1;;6,15871E+23;POZ08M;PL;5.173.235.74;19.10.2020;15.10.2020;1;M
+193;KW-2B72A8;0;102,8;89,9;0.00;gru.90;1602770485;10;;;Joanna ;Pałka ;Domacyno ;27;;Karlino;78-230 ;14;joanna.pal@interia.pl;609893956;3;1;;6,15871E+23;KRL01A;PL;37.249.225.191;19.10.2020;16.10.2020;2;K
+194;KW-080442;0;102,8;89,9;0.00;gru.90;1602770799;10;;;Edyta ;Ruszkowska ;Górskiego ;19;;CHYLICE ;96-313 ;14;Dyzia6@o2.pl;570100420;3;1;;6,15871E+23;JTW01A;PL;31.0.64.162;19.10.2020;15.10.2020;1;K
+195;KW-5A30E8;0;102,8;89,9;0.00;gru.90;1602774247;10;;;HUBERT;HUMMEL;Gen. Aleksandra Osińskiego;11;;Nasielsk;05-190;14;huberthummel@wp.pl;660090973;3;1;;6,15871E+23;MGW01M;PL;91.198.56.243;19.10.2020;15.10.2020;1;M
+196;KW-179DDE;0;179,8;179,8;0.00;0.00;1602777394;10;;;Luiza;Piórko;Anieli krzywon;4;31;Warszawa;01-391;14;mojlogin123@gmail.com;601135973;3;1;;6,15871E+23;WAW31M;PL;89.64.79.255;19.10.2020;15.10.2020;1;K
+197;KW-CA73D6;0;102,8;89,9;0.00;gru.90;1602780837;10;;;Milena;Stokowska;Leśna;5;;Zazdrość;07-230;14;milenabartniczak@wp.pl;502871268;3;1;;6,15871E+23;ZBD01M;PL;37.47.37.38;19.10.2020;15.10.2020;1;K
+198;KW-EE2382;0;179,8;179,8;0.00;0.00;1602783675;10;;;Angelika;Kuk;Zachodnia;28a;41;Białystok;15-345;14;angelikakuk@interia.pl;668640423;3;1;;6,15871E+23;BIA20N;PL;94.254.226.43;19.10.2020;15.10.2020;1;K
+199;KW-BE6221;0;102,8;89,9;0.00;gru.90;1602786207;10;;;Jan;Strilciów;Wyłazy;19;;MOKOBODY;08-124;14;strilciow.j@wp.pl;690652604;3;1;;6,15871E+23;NIG01N;PL;83.31.213.92;19.10.2020;15.10.2020;1;M
+200;KW-B596D2;0;102,8;89,9;0.00;gru.90;1602826466;10;;;Jarosław;Kozłowski;Kameralna;3;;Warszawa;03-406;14;jarko71@o2.pl;606466504;3;1;;6,15871E+23;WAW66N;PL;89.66.219.90;19.10.2020;16.10.2020;1;M
+201;KW-F55ACD;0;179,8;179,8;0.00;0.00;1602829807;10;;;Joanna ;Pleban-Kilman ;Chrościckiego ;83;138;Warszawa ;02-414 ;14;Joanna.plebanslodka@gmail.com;730 996 128;3;1;;6,15871E+23;WAW110M;PL;5.173.170.42;19.10.2020;16.10.2020;1;K
+202;KW-15BC1F;0;102,8;89,9;0.00;gru.90;1602830190;10;;Czapka w kolorze ciemnoniebieskim lub czarnym jeśli Państwo macie na stanie. ;Piotr ;Michałowski ;;;;;;14;pmichalowski.p@gmail.com;504602143;3;1;;6,15871E+23;POP-GRM6;PL;213.216.73.183;19.10.2020;16.10.2020;1;M
+203;KW-72D8F7;0;102,8;89,9;0.00;gru.90;1602836815;10;;;Krzysztof;Jata;Ogrodowa;4a;1;Ruda śląska;41-700;14;krzysiu1973@tlen.pl;692883103;3;1;;6,15871E+23;RSL15A;PL;195.72.148.218;19.10.2020;16.10.2020;1;M
+204;KW-8EEE99;0;102,8;89,9;0.00;gru.90;1602838390;10;;;Beata ;Pawlik;Krzyżówki;13;80;Warszawa;03-193;14;beatapawlik@g.pl;530533216;3;1;;6,15871E+23;WAW109M;PL;93.105.40.126;21.10.2020;16.10.2020;1;K
+205;KW-E6C715;0;179,8;179,8;0.00;0.00;1602841327;10;;;Agata ;Ewald ;Perseusza ;3;;Gdansk ;80-299;14;Agata.borkowskae36@gmail.com;510419016;3;1;;6,15871E+23;GDA06N;PL;5.173.26.71;21.10.2020;16.10.2020;1;K
+206;KW-A7996C;0;102,8;89,9;0.00;gru.90;1602842086;10;;;Pawel;Winnik;Marchewkowa ;5;7;Wrocław;52-311;14;pawlikw@gmail.com;663192640;3;1;;6,15871E+23;WRO18M;PL;199.247.35.202;21.10.2020;16.10.2020;1;M
+208;KW-D98EDD;0;359,6;359,6;0.00;0.00;1602846629;10;;;Stefan;Sepczyński;Kochanowskiego;8a;7;Warszawa;01-864;14;s.sepczynski@gmail.com;698919751;3;1;;6,15871E+23;WAW204AP;PL;185.45.219.148;21.10.2020;16.10.2020;1;M
+209;KW-1C7C2C;0;102,8;89,9;0.00;gru.90;1602847050;10;;;Łukasz;Konopczyński;Popiełuszki 1;;;Konin;62-500;14;l_babiarcz@wp.pl;603556141;3;1;;6,15871E+23;KON09M;PL;37.47.181.178;21.10.2020;16.10.2020;1;M
+210;KW-F244E8;0;102,8;89,9;0.00;gru.90;1602848751;10;;;Daniel;Frącz;Okrężna;20;1;Darłowo;76-150;14;danielfracz@gmail.com;535003568;3;1;;6,15871E+23;DAR01A;PL;77.252.78.110;21.10.2020;16.10.2020;1;M
+211;KW-3D38E6;0;102,8;89,9;0.00;gru.90;1602851248;10;;;Tomasz;Wróblewski;Legionów ;3;25;Ustka;76-270;14;2rasustka@poczta.fm;886173995;3;1;;6,15871E+23;USK01M;PL;37.8.231.239;21.10.2020;16.10.2020;1;M
+214;KW-313634;0;102,8;89,9;0.00;gru.90;1602853058;10;;;Mariusz;Cybulski;Marchołta ;51;14;Kraków;31-416;14;Mcybulski86@gmail.com;603323364;3;1;;6,15871E+23;KRA31A;PL;78.11.169.4;21.10.2020;16.10.2020;1;M
+215;KW-1AB058;0;179,8;179,8;0.00;0.00;1602855233;10;;Jeśli są dostępne proszę o ciemno szare 2 szt;Paweł;Piwoński;Bytomska;25a;1;Siemianowice Śląskie;41-103;14;pawel1piwonski@gmail.com;48723138960;3;1;;6,15871E+23;SIS07A;PL;94.254.181.234;21.10.2020;16.10.2020;1;M
+216;KW-7E9ACE;0;179,8;179,8;0.00;0.00;1602859957;10;;;Urszula;Mazur;Wólka Podleśna;159;;Jasionka;36-002;14;u.i.mazur@gmail.com;696091947;3;1;;6,15871E+23;WPS01M;PL;31.130.96.167;21.10.2020;16.10.2020;1;K
+217;KW-1897C3;0;102,8;89,9;0.00;gru.90;1602865869;10;;;Izabela ;Guralska;Zwycięzców ;4 B;54;Warszawa;03-941;14;izabela.romanowska25@gmail.com;798339635;3;1;;6,15871E+23;WAW07HO;PL;37.47.62.204;21.10.2020;16.10.2020;1;K
+218;KW-E7B4BC;0;179,8;179,8;0.00;0.00;1602866078;10;;;Paweł;Piorun;Waldorffa;41a;117;Warszawa;01-494;14;biuro@progresizolacje.pl;730730320;3;1;;6,15871E+23;WAW135A;PL;89.64.6.149;21.10.2020;19.10.2020;2;M
+219;KW-F811CD;0;102,8;89,9;0.00;gru.90;1602870922;10;;;Katarzyna ;Turek ;Czerniakowska ;127;71;Warszawa ;00-720 ;14;arczi87t@wp.pl;516528620;3;1;;6,15871E+23;WAW15N;PL;89.64.87.131;21.10.2020;16.10.2020;1;K
+220;KW-D6C708;0;102,8;89,9;0.00;gru.90;1602875943;10;;Poproszę fv NIP 7773170908;Kajetan ;Jasiczak ;Rolna ;55;13;Poznan ;61-487;14;jasiczak.kajetan@gmail.com;795225482;3;1;;6,15871E+23;POZ59N;PL;5.173.226.166;21.10.2020;16.10.2020;1;M
+221;KW-31DFED;0;102,8;89,9;0.00;gru.90;1602878693;10;;;Wojciech;Piszora;Przecławska;33G;;Cerekwica;62-090;14;wojciechpiszora@gmail.com;660532635;3;1;;6,15871E+23;ROK01M;PL;188.146.182.130;21.10.2020;16.10.2020;1;M
+223;KW-144955;0;102,8;89,9;0.00;gru.90;1602883269;10;;;Mariusz;Ostoja;Przypadek;43e;1;Inowrocław;88-100;14;ostoja_m@interia.pl;666601350;3;1;;6,15871E+23;INO04A;PL;89.230.138.77;21.10.2020;16.10.2020;1;M
+225;KW-E0A8EF;0;179,8;179,8;0.00;0.00;1602902889;10;;;Krzysztof ;Klimczyk ;Krośnieńska ;25;12;Rzeszów ;35-505;14;komarek21@poczta.onet.pl;663903770;3;1;;6,15871E+23;RZE05N;PL;91.246.66.27;21.10.2020;17.10.2020;1;M
+226;KW-89D5DC;0;359,6;359,6;0.00;0.00;1602919670;10;;;Olesia;Nazarenko ;Krupówki ;11;;Zakopane;34-500;14;olesianazarenko28@gmail.com;787574334;3;1;;6,15871E+23;ZAK01N;PL;94.254.180.139;21.10.2020;17.10.2020;1;K
+227;KW-2EA9D8;0;179,8;179,8;0.00;0.00;1602924161;10;;;Paweł;Koenig;Reja ;6;;Tarnowskie Góry;42-600;14;joannajnck@gmail.com;500024843;3;1;;6,15871E+23;TGO01A;PL;185.234.233.130;21.10.2020;17.10.2020;1;M
+228;KW-049225;0;102,8;89,9;0.00;gru.90;1602924233;10;;;Rafał ;Jach;Lniska ;30a;;Żukowo ;83-330 ;14;Rafaljach91@wp.pl;510421547;3;1;;6,15871E+23;ZUK01A;PL;5.173.250.90;21.10.2020;17.10.2020;1;M
+229;KW-05BD72;0;102,8;89,9;0.00;gru.90;1602924267;10;;;Samanta;Michałowska;Damrota;70;1;Zabrze;41-800;14;samanta.wloka91@gmail.com;505204270;3;1;;6,15871E+23;ZAB08M;PL;5.173.178.5;21.10.2020;17.10.2020;1;K
+230;KW-265A0B;0;102,8;89,9;0.00;gru.90;1602936933;10;;;Krzysztof;Stencel;Aleja Wojska Polskiego;74;52;Kalisz;62-800;14;mesalinus1@wp.pl;606711429;3;1;;6,15871E+23;KAL03N;PL;188.146.179.37;21.10.2020;17.10.2020;1;M
+231;KW-148E99;0;102,8;89,9;0.00;gru.90;1602943574;10;;;Rafał ;Stalmach ;Wojsław ;27;;Grodków ;49-200;14;stalmachrafal2@gmail.com;692375282;3;1;;6,15871E+23;GRO01M;PL;94.254.194.72;21.10.2020;17.10.2020;1;M
+232;KW-A79869;0;102,8;89,9;0.00;gru.90;1602948015;10;;;Karolina ;Pol ;Żabinko ;48;;Mosina ;62-050;14;mela2008@amorki.pl;501064280;3;1;;6,15871E+23;MOS02N;PL;85.221.134.49;21.10.2020;17.10.2020;1;K
+234;KW-80269D;0;269,7;269,7;0.00;0.00;1602948874;10;;;Mateusz;Kijowski;Stróże 104;104;;Zakliczyn;32-840;14;mat.matixt@wp.pl;538587611;3;1;;6,15871E+23;ZKN01N;PL;5.173.116.34;21.10.2020;17.10.2020;1;M
+235;KW-73F80F;0;102,8;89,9;0.00;gru.90;1602949487;10;;;Arleta ;Figurska ;Dragana ;17;26;Gdańsk ;80-807;14;malakrowa@buziaczek.pl;696725054;3;1;;6,15871E+23;GDA09L;PL;89.64.92.14;21.10.2020;17.10.2020;1;K
+237;KW-07DF1B;0;102,8;89,9;0.00;gru.90;1602952058;10;;;Waldemar ;Aleksiewicz ;Białogardzka ;21;20;Bydgoszcz ;85-808;14;alex2010@onet.eu;781422699;3;1;;6,15871E+23;BYD25N;PL;94.254.163.210;21.10.2020;17.10.2020;1;M
+238;KW-3BDFEA;0;102,8;89,9;0.00;gru.90;1602969011;10;;;Aneta ;Bogdan ;Wola Chorzelowska;83ZD;;Wola Chorzelowska;39-333;14;anetabogdan85@gmail.com;883550210;3;1;;6,15871E+23;MIE08A;PL;176.221.123.75;21.10.2020;17.10.2020;1;K
+239;KW-19E697;0;102,8;89,9;0.00;gru.90;1602969341;10;;;Marcin ;Skowerski ;Wąwozowa ;9;23;Warszawa ;02-796;14;bigbird.co@gmail.com;509057117;3;1;;6,15871E+23;WAW185M;PL;89.64.65.150;21.10.2020;17.10.2020;1;M
+240;KW-9B599F;0;102,8;89,9;0.00;gru.90;1602975525;10;;;Diana;Piechocka;Krucza ;27;20;Wasilków;16-010;14;diana1208@wp.pl;505224035;3;1;;6,1587E+23;WAS01ML;PL;83.175.148.18;22.10.2020;18.10.2020;1;K
+241;KW-0D3DED;0;102,8;89,9;0.00;gru.90;1603001797;10;;;Beata ;Piętka ;Łączna ;38 a;;Żywiec ;34-300;14;Becia.38@wp.pl;609 771 327;3;1;;6,1587E+23;ZWC02N;PL;80.49.171.54;26.10.2020;24.10.2020;2;K
+243;KW-1D6AEB;0;102,8;89,9;0.00;gru.90;1603008564;10;;;Przemysław;Jancewicz;Ogrodowa;6C;1;Józefosław;05-500;14;p.jancewicz@wp.pl;508512415;3;1;;6,15871E+23;JUZ01N;PL;89.64.6.230;21.10.2020;18.10.2020;1;M
+244;KW-8FBEE3;0;102,8;89,9;0.00;gru.90;1603009035;10;;;Jacek;Górski;Konopnickiej;60/66 M 9;60/66 M 9;#NAZWA?;95-200;14;jacer551v8@gmail.com;602761877;3;1;;6,15871E+23;PAB13M;PL;5.173.186.211;21.10.2020;18.10.2020;1;M
+245;KW-1C9DA0;0;179,8;179,8;0.00;0.00;1603012551;10;;;Dawid;Kopera;Krasińskiego;15A;28;Wrocław;50-449;14;dk_sklepy@outlook.com;792567372;3;1;;6,15871E+23;WRO41A;PL;178.37.191.156;21.10.2020;18.10.2020;1;M
+246;KW-C1C24B;0;102,8;89,9;0.00;gru.90;1603013645;10;;;Sebastian;Wachowski;Pogodna ;8;;Ostrów Wielkopolski;63-400;14;wachu777@gmail.com;606319176;3;1;;6,15871E+23;OWI05M;PL;87.248.90.128;21.10.2020;18.10.2020;1;M
+247;KW-D40366;0;102,8;89,9;0.00;gru.90;1603017502;10;;;Marcin;Orzechowski;Wybickiego;22;1;Tczew;83-110;14;marcinorzech29@gmail.com;883001292;3;1;;6,15871E+23;TCZ04M;PL;109.197.102.47;21.10.2020;18.10.2020;1;M
+248;KW-217B3C;0;102,8;89,9;0.00;gru.90;1603019729;10;;;Dariusz ;Piekarski ;Twardowskiego ;52B ;;Jastrzębie Zdrój ;44-335 ;14;pirek22@interia.pl;791724682;3;1;;6,15871E+23;JZD07M;PL;37.248.215.86;21.10.2020;18.10.2020;1;M
+250;KW-A72974;0;179,8;179,8;0.00;0.00;1603023951;10;;Paczkomat ul. Daktylowa 8, wroclaw koło Lidla;Przemyslaw;Rogowski;Olbrachtowska;46;10;Wroclaw;54-063;14;p.rogowski@o2.pl;606424010;3;1;;6,15871E+23;WRO62M;PL;185.21.148.14;21.10.2020;18.10.2020;1;M
+251;KW-BC6D0D;0;102,8;89,9;0.00;gru.90;1603024750;10;;;Elżbieta;Kłopotek;Wojska Polskiego;15;18;Nowy Dwór Mazowiecki;05-101;14;elisabeth_klopotek@yahoo.de;513507324;3;1;;6,15871E+23;NDM01AP;PL;176.111.234.60;21.10.2020;18.10.2020;1;K
+252;KW-1EF95B;0;102,8;89,9;0.00;gru.90;1603025652;10;;;Patrycja;Malawska;Chroboka;10;2;Ruda Śląska;41-711;14;malawska@op.pl;698404640;3;1;;6,15871E+23;RSL10A;PL;31.178.197.166;21.10.2020;18.10.2020;1;K
+253;KW-246033;0;449,5;449,5;0.00;0.00;1603030445;10;;"Faktura:
+F.U.H. ELEKOM KAZIMIERZ JAROSIŃSKI
+UL. ZBYLITOWSKICH 124
+33-113 ZBYLITOWSKA GÓRA
+NIP 8731020671";Kazimierz;Jarosiński;Zbylitowskich;124;;Zbylitowska Góra;33-113;14;h0ld@o2.pl;602852217;3;1;;6,15871E+23;ZBG01A;PL;91.217.105.4;21.10.2020;18.10.2020;1;M
+254;KW-687A00;0;102,8;89,9;0.00;gru.90;1603031667;10;;;Małgorzata;Moczulska;Suraska;3A;;Białystok;15-095;14;gosiam8922@gmail.com;48 794 142 369;3;1;;6,15871E+23;BIA05A;PL;93.105.176.237;21.10.2020;18.10.2020;1;K
+255;KW-5330BA;0;102,8;89,9;0.00;gru.90;1603038373;10;;;Dariusz ;Brzostowski ;Zjazd ;12;;Łomża ;18-400 ;14;brzostek50@gmail.com;510172886;3;1;;6,15871E+23;LOM07M;PL;37.47.46.119;21.10.2020;18.10.2020;1;M
+257;KW-BC0D61;0;102,8;89,9;0.00;gru.90;1603042634;10;;;Mateusz;Młynarczyk;Mariana Domagały;45;16;Kraków;30-741;14;matmly@gmail.com;668395926;3;1;;6,15871E+23;KRA29M;PL;89.79.181.177;21.10.2020;18.10.2020;1;M
+258;KW-4EDDDF;0;179,8;179,8;0.00;0.00;1603044075;10;;;Krzysztof;Kankowski;Żaglowa ;66;3;Gdynia ;81-578;14;krzysztof.kankowski@gmail.com;505747462;3;1;;6,15871E+23;GDY18A;PL;37.47.239.249;21.10.2020;18.10.2020;1;M
+259;KW-2DF5BF;0;102,8;89,9;0.00;gru.90;1603044696;10;;;Rafal;Krotowski;Wyspianskiego;23;4;Brodnica;87-300;14;raf.krotowski@gmail.com;662575795;3;1;;6,15871E+23;BRD05N;PL;89.231.89.144;21.10.2020;18.10.2020;1;M
+261;KW-892359;0;179,8;179,8;0.00;0.00;1603047209;10;;"Dane do faktury:
+BTL Łukasz Ostachowski 
+ul. Diany 34/3 80-299 Gdańsk 
+NIP: 5842561977";Łukasz;Ostachowski;Diany ;34;3;Gdańsk;80-299;14;lo@post.pl;511012400;3;1;;6,15871E+23;GDA43N;PL;89.206.10.91;21.10.2020;18.10.2020;1;M
+262;KW-A3F134;0;179,8;179,8;0.00;0.00;1603052255;10;;;Michał;Kowalski;Francuska;41a;10;Bytom;41-923;14;malutki87@gmail.com;501660936;3;1;;6,15871E+23;BYT16N;PL;5.173.121.94;21.10.2020;18.10.2020;1;M
+264;KW-3146D8;0;102,8;89,9;0.00;gru.90;1603053619;10;;Milego dnia :);Patryk;Zabielski;Rakowska;16;68;WARSZAWA;02-237;14;patryk199116@o2.pl;797170404;3;1;;6,15871E+23;WAW85M;PL;89.64.79.252;21.10.2020;18.10.2020;1;M
+265;KW-676093;0;179,8;179,8;0.00;0.00;1603056488;10;;;Artur;Mazurek;Sobieskiego;8;5;Pruszków;05-800;14;explosion09@gmail.com;510072591;3;1;;6,15871E+23;PRU01A;PL;83.5.239.102;21.10.2020;18.10.2020;1;M
+266;KW-7CBD20;0;179,8;179,8;0.00;0.00;1603090332;10;;;Jakub;Czajka;Os. Sobieskiego;10;19;Poznań;60-681;14;j.czajka@interia.pl;538484289;3;1;;6,1587E+23;POZ21M;PL;37.30.19.247;22.10.2020;19.10.2020;1;M
+267;KW-98C91F;0;102,8;89,9;0.00;gru.90;1603092463;10;;;Adam;Rysz;Rynek;17;;Włodawa;22-200;14;akudlaty@yahoo.com;664500589;3;1;;6,1587E+23;WDW01A;PL;5.184.63.63;22.10.2020;19.10.2020;1;M
+268;KW-0E7DF4;0;179,8;179,8;0.00;0.00;1603092466;10;;;Adam;Redesiuk;Piaski Starowiejskie ;56a;;Siedlce;08-110;14;redesiukadam@gmail.com;509071983;3;1;;6,1587E+23;SIE10A;PL;217.67.218.235;22.10.2020;19.10.2020;1;M
+269;KW-F559D3;0;102,8;89,9;0.00;gru.90;1603093924;10;;;Piotr;Łukomski;M Konopnickiej;57;80;Bydgoszcz;85-124;14;piotrlukomski1@gmail.com;660524266;3;1;;6,1587E+23;BYD34A;PL;5.184.81.62;23.10.2020;19.10.2020;1;M
+270;KW-1AA273;0;102,8;89,9;0.00;gru.90;1603095808;10;;;Maciej ;Wiśniewski;Narutowicza ;13;47;Sierpc;09-200;14;melon006@wp.pl;660463127;3;1;;6,1587E+23;SRC04M;PL;94.254.163.85;22.10.2020;19.10.2020;1;M
+271;KW-171F3B;0;102,8;89,9;0.00;gru.90;1603102295;10;;;Annna;Pacholczyk;Drzymały ;6;3;Gdańsk;80-318;14;pacholczykannamaria@gmail.com;792181408;3;1;;6,1587E+23;GDA08B;PL;89.65.134.76;22.10.2020;19.10.2020;1;K
+272;KW-460FBC;0;102,8;89,9;0.00;gru.90;1603104352;10;;;Grzegorz;Kawula;Igołomska;87a;;Kraków;31-998;14;blysk11@wp.pl;503554991;3;1;;6,1587E+23;ZOF01M;PL;91.219.113.158;23.10.2020;19.10.2020;1;M
+273;KW-2C6E36;0;102,8;89,9;0.00;gru.90;1603106487;10;;;Piotr;Filippwski;Czarnogórska ;10;18;Krakow;30-638;14;piotrekfel@gmail.com;505949550;3;1;;6,1587E+23;KRA129M;PL;37.47.85.178;23.10.2020;19.10.2020;1;M
+274;KW-2BB7CE;0;102,8;89,9;0.00;gru.90;1603117503;10;;;Krzysztof;Otlewski;Kościelna;19;;Drzycim;86-140;14;Krzysztof-Ot@wp.pl;507018340;3;1;;6,1587E+23;DCM01G;PL;83.23.22.42;26.10.2020;19.10.2020;1;M
+275;KW-BA09A1;0;102,8;89,9;0.00;gru.90;1603118055;10;;;Mateusz;Kucharczyk ;Lipowa;1;;Biestrzyków;55-010;14;mateusz92@opoczta.pl;530177644;3;1;;6,1587E+23;ZWR01M;PL;188.146.174.27;22.10.2020;21.10.2020;2;M
+276;KW-900596;0;102,8;89,9;0.00;gru.90;1603118205;10;;;Paweł;Grochocki;wieś Zybułtowo;4;4;Gierzwałd;14-107;14;grochi3@interia.eu;508179404;3;1;;6,1587E+23;OSK01M;PL;178.36.14.113;22.10.2020;19.10.2020;1;M
+278;KW-1D6A2C;0;102,8;89,9;0.00;gru.90;1603119496;10;;;Kamil;Kurasz;Truskawkowa;13;;Turza Śląska;44-351;14;kamil.kurasz@iglomen.pl;609820201;3;1;;6,1587E+23;TSL01M;PL;5.60.60.49;23.10.2020;19.10.2020;1;M
+280;KW-4216BF;0;269,7;269,7;0.00;0.00;1603132702;10;;;Damian;Kumaniecki;Czarnucha;1d;4;Poznań;61-612;14;damian.kumaniecki@gmail.com;696986576;3;1;;6,1587E+23;POZ09N;PL;213.156.126.217;22.10.2020;19.10.2020;1;M
+281;KW-BFB6A7;0;102,8;89,9;0.00;gru.90;1603133776;10;;;Sebastian;Grzadkowski;ZIÓLKOWSKIEGO;14a;10;Tarczyn;05-555;14;sebus-16@wp.pl;505423651;3;1;;6,1587E+23;TRC01M;PL;37.47.57.40;22.10.2020;19.10.2020;1;M
+282;KW-2BA130;0;102,8;89,9;0.00;gru.90;1603137990;10;;;Dariusz ;Bartnicki ;Lazurowa ;14b;48;Warszawa;01-415;14;pilwaw@go2.pl;791733106;3;1;;6,1587E+23;WAW46A;PL;88.156.139.5;26.10.2020;19.10.2020;1;M
+284;KW-51440A;0;102,8;89,9;0.00;gru.90;1603153454;10;;;Artur ;Gredys ;Krzeczyn Wielki ;4J;4J;Krzeczyn Wielki ;59311;14;arturgredys@wp.pl;607687755;3;1;;6,1587E+23;KRK01M;PL;31.60.120.63;22.10.2020;20.10.2020;1;M
+285;KW-3E919B;0;102,8;89,9;0.00;gru.90;1603174320;10;;;Arkadiusz;Blahy;Morska;6;8;Slawno;76-100;14;ketnik@wp.pl;661523272;3;1;;6,1587E+23;SLA01ML;PL;31.0.127.81;26.10.2020;20.10.2020;1;M
+286;KW-66C11F;0;102,8;89,9;0.00;gru.90;1603182421;10;;;Marcin;Borowiecki;Główna;74;;Sędziejowice;98-160;14;boruch27@o2.pl;601-757-591;3;1;;6,1587E+23;LAS04M;PL;31.0.83.167;22.10.2020;20.10.2020;1;M
+287;KW-E8E847;0;179,8;179,8;0.00;0.00;1603185713;10;;Proszę o wystawienie faktury na dane SAGITTARIUS Krzysztof Subicki, ul. Wyspa ińskiego 1, 76-150 Darłowo, NIP: 669-110-94-05;Krzysztof;Subicki;Wyspiańskiego;1;;Darłowo;76-150;14;reklama@gcl.pl;508156747;3;1;;6,1587E+23;DAR01ML;PL;188.147.108.144;26.10.2020;20.10.2020;1;M
+288;KW-8D2688;0;449,5;449,5;0.00;0.00;1603187091;10;;"Faktura VAT dla :
+F.H. AS BHP ";Grzegorz;Rzepiński;Hutnicza;34;15;Gdynia;81-061;14;asbhp01@gmail.com;501308585;3;1;;6,1587E+23;RUM02N;PL;83.18.156.73;26.10.2020;24.10.2020;2;M
+289;KW-E507D2;0;179,8;179,8;0.00;0.00;1603193541;10;;;Małgorzata;Broda;Dziecinów;36;;Sobienie Jeziory;08-443;14;gosia-b88@wp.pl;730825654;3;1;;6,1587E+23;DCW01G;PL;83.9.185.88;22.10.2020;20.10.2020;1;K
+290;KW-E407AA;0;102,8;89,9;0.00;gru.90;1603195033;10;;;Marcin;Starnawski;Gen.Józefa Hallera 22/43;;;Sosnowiec;41-214;14;marcinex.stars@gmail.com;797846620;3;1;;6,1587E+23;SOS25M;PL;89.66.207.227;22.10.2020;20.10.2020;1;M
+292;KW-FBA547;0;102,8;89,9;0.00;gru.90;1603200000;10;;Witam. Rozmawialiśmy o dwóch dodatkowych szybkach na messendzerze. Proszę o dołączenie ich do zamówienia. Pozdrawiam. ;Daniel;Ałdaś;Broniewskiego ;51;;Piaseczno;05-500;14;danielaldas@o2.pl;518654672;3;1;;6,1587E+23;PIA05A;PL;188.146.37.134;22.10.2020;21.10.2020;2;M
+293;KW-2023CE;0;269,7;269,7;0.00;0.00;1603202594;10;;;Iwona ;Szczepaniak ;Nad zalewem ;8;;Niedzica ;34-441;14;iwonac127@interia.pl;606701771;3;1;;6,1587E+23;NDI01N;PL;178.43.93.43;23.10.2020;21.10.2020;1;K
+295;KW-006269;0;102,8;89,9;0.00;gru.90;1603215560;10;;;Agnieszka ;Sekunda ;Biskupińska ;50;5;Poznań ;60-463;14;aga19744@wp.pl;798637352;3;1;;6,15871E+23;POZ48M;PL;109.173.153.241;06.11.2020;06.11.2020;2;K
+296;KW-02F20A;0;102,8;89,9;0.00;gru.90;1603220117;10;;;Sylwia;Walczak;Łososiowa;26;24;Łódź;91-496;14;kryska1983@op.pl;606922208;3;1;;6,1587E+23;LOD67N;PL;91.193.85.92;22.10.2020;20.10.2020;1;K
+297;KW-43E270;0;179,8;179,8;0.00;0.00;1603221203;10;;;Anna;Statucka;Szarotkowa;67;;Poznań;60-175;14;anna.statucka@onet.eu;796099854;3;1;;6,1587E+23;PLW01N;PL;83.8.82.187;26.10.2020;20.10.2020;1;K
+298;KW-518F53;0;102,8;89,9;0.00;gru.90;1603221479;10;;;Paweł;Fila;Wojska Polskiego ;68a;;Zwierzyn;66-542;14;fila_pawel@wp.pl;661405070;3;1;;6,1587E+23;ZWI02A;PL;37.248.154.217;22.10.2020;20.10.2020;1;M
+299;KW-2D12EF;0;102,8;89,9;0.00;gru.90;1603254671;10;;;Andrzej;Andrzejewski;M. Kasprzaka;7;8;Żary;68-200;14;endriuend@orange.pl;730756666;3;1;;6,1587E+23;ZAR01M;PL;31.60.85.229;22.10.2020;21.10.2020;1;M
+300;KW-6DD9BA;0;102,8;89,9;0.00;gru.90;1603267659;10;;;norman;wieja;slodka;20b;20b;Bielsko Biala;43-3;14;demonek87@gmail.com;788881187;3;1;;6,1587E+23;LDY01M;PL;193.200.83.94;26.10.2020;21.10.2020;1;M
+301;KW-5B7139;0;102,8;89,9;0.00;gru.90;1603267927;10;;;Sylwia;Twardochleb ;Siedlce 37;37;;Oława ;55-200;14;sylwia.twardochleb@gmail.com;693222693;3;1;;6,1587E+23;OLW02A;PL;5.174.200.117;22.10.2020;21.10.2020;1;K
+302;KW-4F1021;0;102,8;89,9;0.00;gru.90;1603274012;10;;;Wiesław ;Tatur ;Nowa;11;115;Gorzów Wielkopolski ;66-400;14;wieslawtatur@gmail.com;577999977;3;1;;6,1587E+23;GWI07M;PL;37.248.224.143;26.10.2020;21.10.2020;1;M
+303;KW-65D81D;0;102,8;89,9;0.00;gru.90;1603274342;10;;;Sebastian;Kołton;Kluczborska ;21;4;Wrocław;50-323;14;mroku232@gmail.com;665557487;3;1;;6,1587E+23;WRO83M;PL;31.0.42.133;22.10.2020;21.10.2020;1;M
+304;KW-C40857;0;102,8;89,9;0.00;gru.90;1603275996;10;;;Arkadiusz ;Todys ;Marii Konopnickiej ;21A;1;Chorzów ;41-500 ;14;art58@wp.pl;787610707;3;1;;6,1587E+23;CHO03N;PL;83.242.66.186;26.10.2020;22.10.2020;2;M
+306;KW-B04F2C;0;102,8;89,9;0.00;gru.90;1603278241;10;;;Paulina ;Kiciak Laśkiewicz;Wysoka;22;9;Łódź;90-036;14;laskiewiczpaulina@wp.pl;536464232;3;1;;6,1587E+23;LOD17N;PL;31.183.173.72;22.10.2020;21.10.2020;1;K
+307;KW-EC3D60;0;179,8;179,8;0.00;0.00;1603278495;10;;;Michał;Łasiński;Bułgarska ;12;4;Zielona Góra;65-943;14;lasinski.michal@icloud.com;516455440;3;1;;6,1587E+23;ZGO01N;PL;80.53.32.149;26.10.2020;21.10.2020;1;M
+308;KW-42B59B;0;102,8;89,9;0.00;gru.90;1603279534;10;;Wyrażam zgodę na przetwarzanie moich danych osobowych tylko i wyłącznie do celów zrealizowania zamówienia.;Agnieszka ;Jałosińska;Mostowa;28;60;Przedbórz;97-570;14;agajal@onet.pl;793 115 815;3;1;;6,1587E+23;PRR01N;PL;37.249.80.109;26.10.2020;22.10.2020;2;K
+309;KW-ACF223;0;179,8;179,8;0.00;0.00;1603280104;10;;"Firma TIMBER POLAND
+Proszę o szybką wysyłkę";Timber Poland Grzegorz;Wlazłowski;Kielecka;16/24;16/24;Radom;26-600;14;grzegorz.wlazlowski@timberpoland.pl;503711582;3;1;;6,1587E+23;RAD16M;PL;77.253.92.129;22.10.2020;21.10.2020;1;M
+311;KW-7CE936;0;179,8;179,8;0.00;0.00;1603288446;10;;;Daniel;Białęcki;Poniatowskiego;4;2;Gorzów Wielkpolski;66-400;14;danio1372@wp.pl;790603999;3;1;;6,1587E+23;GWI02A;PL;5.173.42.148;26.10.2020;21.10.2020;1;M
+312;KW-4C974A;0;102,8;89,9;0.00;gru.90;1603288901;10;;;Wiktor;Marcinkowski;Zatorska;62B;12;Wrocław;51-215;14;wuem071@gmail.com;788888078;3;1;;6,1587E+23;WRO33N;PL;94.127.104.6;26.10.2020;21.10.2020;1;M
+314;KW-3D9EF8;0;179,8;179,8;0.00;0.00;1603294177;10;;;Krzysztof ;Stachnik ;Wschodnia ;10B;16;Skierniewice ;96 - 100;14;krzysieks6@op.pl;790718111;3;1;;6,1587E+23;SKI02A;PL;5.173.185.153;22.10.2020;21.10.2020;1;M
+315;KW-6ED38E;0;179,8;179,8;0.00;0.00;1603294194;10;;;Michal Jan;Dróżdż;Brzechwy;7;20;Łódź;93-219;14;trenermozgu@gmail.com;530337456;3;1;;6,1587E+23;LOD55M;PL;31.183.177.232;23.10.2020;21.10.2020;1;M
+316;KW-53BF6C;0;102,8;89,9;0.00;gru.90;1603296034;10;;;Mariusz;Trzciński;Aleja Wolności;9A;12;Niemodlin;49-100;14;markus16@wp.eu;784018964;3;1;;6,1587E+23;NMO02ML;PL;185.42.47.92;23.10.2020;21.10.2020;2;M
+317;KW-BB14A0;0;102,8;89,9;0.00;gru.90;1603298737;10;;;Waldemar;Śniady;Orzeszkowej;13;1o;Gryfice;72-300;14;walsniady@interia.pl;886690743;3;1;;6,1587E+23;GRC01M;PL;37.30.20.48;26.10.2020;22.10.2020;2;M
+318;KW-2E933E;0;102,8;89,9;0.00;gru.90;1603303459;10;;;Mariusz;Witan;Olszowa ;28;;Józefów;05-420;14;mariusz.witan@gmail.com;518933329;3;1;;6,15871E+23;OTW01A;PL;31.0.122.130;18.11.2020;17.11.2020;2;M
+319;KW-835943;0;102,8;89,9;0.00;gru.90;1603304696;10;;;Maciej;Wójcik;Gagarina ;13;Telepizza ;Warszawa;00-753;14;mokotowianin8610@gmail.com;518621220;3;1;;6,15871E+23;WAW169M;PL;37.47.20.125;11.11.2020;09.11.2020;2;M
+320;KW-FB5D30;0;179,8;179,8;0.00;0.00;1603304807;10;;;Magdalena ;Augustyniak ;Zygry ;38;;Zadzim ;99-232 ;14;malwinka-a261@o2.pl;696 541 310;3;1;;6,1587E+23;SZD01N;PL;46.204.2.107;26.10.2020;22.10.2020;2;K
+321;KW-0DFB7B;0;179,8;179,8;0.00;0.00;1603309281;10;;;Joanna;Gmyrek;Willowa 12b/20;;;Szczecin;71-650;14;joanna.gmyrek@o2.pl;609222747;3;1;;6,1587E+23;SZC261;PL;5.173.16.252;23.10.2020;21.10.2020;1;K
+322;KW-0193E0;0;102,8;89,9;0.00;gru.90;1603309519;10;;;sławomir;jałowski;okólna;150;;łódz;91-520;14;slawek1972@op.pl;501892538;3;1;;6,1587E+23;LOD58N;PL;37.248.17.91;23.10.2020;21.10.2020;1;M
+323;KW-550A87;0;102,8;89,9;0.00;gru.90;1603319018;10;;;Karolina;Stempień ;Wiklinowa;4;;Piotrków Trybunalski;97-300;14;kinka-s@o2.pl;48 660 255 262;3;1;;6,1587E+23;PTR09N;PL;31.182.147.33;26.10.2020;22.10.2020;1;K
+324;KW-B4DF0B;0;102,8;89,9;0.00;gru.90;1603338709;10;;;jacek ;biegański;szkolna ;2;;jejkowice;44290;14;jaco87jaco@gmail.com;500053218;3;1;;6,1587E+23;JEJ01N;PL;83.26.165.71;26.10.2020;22.10.2020;1;M
+325;KW-676A55;0;102,8;89,9;0.00;gru.90;1603354335;10;;;Tomasz;Jarzębiński;Natansona;31a;13;Kraków;31-234;14;tjarzebinski@gmail.com;668429131;3;1;;6,1587E+23;KRA48A;PL;87.239.222.229;26.10.2020;22.10.2020;2;M
+326;KW-6D707C;0;102,8;89,9;0.00;gru.90;1603355658;10;;;anna;kowal;świętokrzyska;8;;Leszno;64-100;14;kosmika@wp.pl;509866437;3;1;;6,1587E+23;LES02A;PL;83.11.156.160;26.10.2020;22.10.2020;1;K
+328;KW-988EF9;0;102,8;89,9;0.00;gru.90;1603367943;10;;;Marcin;Filipowicz;Armii Krajowej ;64;mar.16;Wołomin;05-200;14;filipowicz.marcin@o2.pl;790252479;3;1;;6,1587E+23;WOL07A;PL;46.169.246.45;26.10.2020;22.10.2020;1;M
+329;KW-ED49DB;0;179,8;179,8;0.00;0.00;1603373766;10;;;Piotr ;Ślusarczyk;Bartosza Głowackiego ;29;;Kurów ;24-170;14;piotrass1977@gmail.com;603855513;3;1;;6,15871E+23;KUR01N;PL;94.254.229.71;27.10.2020;26.10.2020;2;M
+330;KW-B7289F;0;102,8;89,9;0.00;gru.90;1603383321;10;;;Katarzyna;Kuzin;Na Uboczu;16;57;Warszawa;02-792;14;caitri@wp.pl;604592394;3;1;;6,1587E+23;BCH01M;PL;31.179.109.109;26.10.2020;22.10.2020;1;K
+331;KW-3FF56F;0;179,8;179,8;0.00;0.00;1603388143;10;;;Halina ;Budzińska ;Wilczków ;24;;Goszczanow ;98-215;14;pawcio03101985@o2.pl;724637755;3;1;;6,1587E+23;GNO01M;PL;37.248.155.97;26.10.2020;22.10.2020;1;K
+332;KW-B95CFD;0;102,8;89,9;0.00;gru.90;1603388249;10;;;Agnieszka ;Skoczeń ;Poziomkowa ;10;;Nysa;48-300;14;bzuzek@wp.pl;606445899;3;1;;6,1587E+23;NYS01M;PL;46.204.18.177;23.10.2020;22.10.2020;1;K
+333;KW-B1A8D0;0;102,8;89,9;0.00;gru.90;1603391621;10;;;Grzegorz ;Bartela;Jankowskiego ;16/22;8;Częstochowa ;42-200 ;14;grzegorz@bartela.pl;605 26 26 26 ;3;1;;6,1587E+23;CZE13M;PL;31.0.65.146;26.10.2020;22.10.2020;1;M
+334;KW-F0F4B1;0;102,8;89,9;0.00;gru.90;1603411303;10;;;Piotr;Cichocki;Kopań;4;;Darłowo;76-150;14;piotrek9973@gmail.com;508397604;3;1;;6,15871E+23;DAR01ML;PL;46.215.55.36;27.10.2020;23.10.2020;1;M
+335;KW-986B13;0;102,8;89,9;0.00;gru.90;1603439498;10;;;Krzysztof;Serafiński;Rynek;3;;Nowogród;18-414;14;studio.serafinski@gmail.com;504211410;3;1;;6,15871E+23;LOM08N;PL;79.188.253.109;27.10.2020;23.10.2020;1;M
+336;KW-DE9111;0;179,8;179,8;0.00;0.00;1603446345;10;;;Daniel ;Derecki ;Gibalskiego ;17;21;Warszawa ;01-190 ;14;derus21@wp.pl;609106075;3;1;;6,15871E+23;WAW05M;PL;37.47.27.39;27.10.2020;23.10.2020;1;M
+337;KW-0D4E61;0;179,8;179,8;0.00;0.00;1603452947;10;;"proszę o wystawienie faktury vat
+
+PIEKARNIA
+Józef Pałucki
+ul. Narutowicza 6
+48-370 Paczków
+753-001-30-14
+
+dziękuję!";Józef;Pałucki;Narutowicza;6;;Paczków;48-370;14;zytasia@o2.pl;601615400;3;1;;6,15871E+23;PCK01N;PL;31.0.127.32;27.10.2020;23.10.2020;1;M
+338;KW-A7352E;0;102,8;89,9;0.00;gru.90;1603462395;10;;;Sebatian;Waśkiewicz;Jagiellonów;5;1;Lipno;87-600;14;waskiewicz.sebastian@gmail.com;507180367;3;1;;6,15871E+23;LIP03A;PL;193.32.195.164;27.10.2020;23.10.2020;1;M
+340;KW-ADC6BB;0;102,8;89,9;0.00;gru.90;1603467521;10;;;Szymon;Frankowski;Leszcyńska;16;;Święciechowa;64-115;14;kontakt.frankowski@gmail.com;698952223;3;1;;6,15871E+23;SWH01N;PL;37.47.157.250;27.10.2020;23.10.2020;1;M
+341;KW-74F7DD;0;102,8;89,9;0.00;gru.90;1603472684;10;;;Łukasz ;Czapla;Chełmońskiego ;1;;Ząbki;05-091;14;lukeheron@legionista.com;791682278;3;1;;6,15871E+23;ZBA01A;PL;5.173.194.80;28.10.2020;23.10.2020;1;M
+342;KW-703D6C;0;102,8;89,9;0.00;gru.90;1603477527;10;;;Edyta;Ruszkowska;Górskiego;19;;Chylice;96-313;14;dyzia6@o2.pl;570100420;3;1;;6,15871E+23;JTW01A;PL;31.0.85.111;27.10.2020;23.10.2020;1;K
+343;KW-C553B9;0;102,8;89,9;0.00;gru.90;1603480290;10;;;Karol;Młyński;Fasolowa ;28;28;Rąbień;95-070;14;karol.bho@wp.pl;694-427-343;3;1;;6,15871E+23;REA01N;PL;188.146.229.84;27.10.2020;23.10.2020;1;M
+344;KW-83E961;0;102,8;89,9;0.00;gru.90;1603481751;10;;;Rasosław;Ryba;B. Chrobrego ;4;40;Sosnowiec ;41_219 ;14;rybosom1@gmail.com;884008868;3;1;;6,15871E+23;SOS07M;PL;83.22.161.54;27.10.2020;23.10.2020;1;M
+345;KW-E0F0E2;0;179,8;179,8;0.00;0.00;1603485548;10;;;karol;grupa;popkowice;44a;44a;urzędów;23-250;14;karolharmonijka@wp.pl;605568110;3;1;;6,15871E+23;URZ01M;PL;83.28.20.8;27.10.2020;23.10.2020;1;M
+347;KW-28C9CD;0;102,8;89,9;0.00;gru.90;1603493685;10;;;Lukasz;Smigaj;Zwirowa;10b/2;;Komorniki;62-052;14;lukasz.smigaj@wp.pl;792884335;3;1;;6,15871E+23;KOM02M;PL;31.60.35.38;27.10.2020;24.10.2020;1;M
+348;KW-733821;0;102,8;89,9;0.00;gru.90;1603518949;10;;;Konrad;Hosaja;Stary gościniec;1KT;;Kraków;31-764;14;konrad.hosaja@gmail.com;508196112;3;1;;6,15871E+23;KRA43A;PL;5.173.64.76;27.10.2020;24.10.2020;1;M
+350;KW-2FED51;0;102,8;89,9;0.00;gru.90;1603526299;10;;;Krzysztof;Szczubkowski;Grochowska  2c;;;Kołobrzeg;78-100;14;krzysztof.szczubkowski@wp.pl;660798924;3;1;;6,15871E+23;KOL02N;PL;89.64.10.175;27.10.2020;24.10.2020;1;M
+352;KW-3D5B9B;0;102,8;89,9;0.00;gru.90;1603529597;10;;;Roman;Szarek;Czarny Las;1;;Górki wielkie;43-436;14;romas78@gmail.com;500866572;3;1;;6,15871E+23;GOM01N;PL;109.197.33.19;27.10.2020;24.10.2020;1;M
+353;KW-DACA84;0;102,8;89,9;0.00;gru.90;1603536093;10;;;Luiza;Piórko;Anieli krzywon;4;31;Warszawa;01-391;14;mojlogin123@gmail.com;601135973;3;1;;6,15871E+23;WAW31M;PL;5.173.147.247;27.10.2020;24.10.2020;1;K
+354;KW-AB7D57;0;179,8;179,8;0.00;0.00;1603540853;10;;;Jacek;Rapacz;Rynek;25;;Dobczyce;32-410;14;wincynty@gmail.com;889500900;3;1;;6,15871E+23;DOB01M;PL;46.22.161.2;27.10.2020;24.10.2020;1;M
+355;KW-027D56;0;102,8;89,9;0.00;gru.90;1603545402;10;;;Łukasz;Konopczynski;Gwoździarska 7;;;Konin;62-500;14;L_babiarcz@wp.pl;603556141;3;1;;6,15871E+23;KON09M;PL;31.60.70.86;27.10.2020;24.10.2020;1;M
+357;KW-E44653;0;102,8;89,9;0.00;gru.90;1603567618;10;;;Adam;Skorupa;Reymonta;33;9;Zabrze;41-800;14;adam_cidry@tlen.pl;691979235;3;1;;6,15871E+23;ZAB06M;PL;178.215.207.17;27.10.2020;24.10.2020;1;M
+359;KW-D67F8C;0;102,8;89,9;0.00;gru.90;1603576644;10;;;Natalia;Pszczółkowska;Wschodnia;9A;3;Ruda Śląska;41-707;14;nata.lka@interia.pl;507896570;3;1;;6,15871E+23;RSL13N;PL;94.254.181.52;27.10.2020;24.10.2020;1;K
+360;KW-E0F8EC;0;102,8;89,9;0.00;gru.90;1603628177;10;;;Wojciech;Czarnota;Rodakowskiego;35;20;Tychy;43-100;14;wojciech.czarnota@interia.pl;605720909;3;1;;6,15871E+23;TYC14M;PL;91.239.36.88;28.10.2020;25.10.2020;1;M
+362;KW-C0F728;0;179,8;179,8;0.00;0.00;1603655148;10;;;Jakub;Szymańczak ;Narutowicza ;21;7;Żyrardów ;96-300;14;kubian@op.pl;792623352;3;1;;6,15871E+23;ZYR01N;PL;37.225.62.239;28.10.2020;25.10.2020;1;M
+363;KW-08FA59;0;102,8;89,9;0.00;gru.90;1603661247;10;;;Michał ;Sukiennik ;Aleja Armii Krajowej ;84;35;Częstochowa ;42-215;14;m.sukiennik86@gmail.com;607542089;3;1;;6,15871E+23;CZE08A;PL;178.216.91.28;28.10.2020;25.10.2020;1;M
+364;KW-FA3610;0;102,8;89,9;0.00;gru.90;1603683955;10;;;Piotr;Skalski ;Gierałtowiec ;39;;Złotoryja ;59 500;14;skalski2@interia.pl;669062687;3;1;;6,15871E+23;LEG201;PL;5.172.236.224;28.10.2020;26.10.2020;1;M
+365;KW-63A88A;0;179,8;179,8;0.00;0.00;1603699309;10;;;Bartosz;Śmigaj;Głogowska;185;11;Poznań;60-121;14;bartosz.smigaj@wp.pl;662266192;3;1;;6,15871E+23;POZ28A;PL;77.65.95.240;28.10.2020;26.10.2020;1;M
+366;KW-4AAF66;0;179,8;179,8;0.00;0.00;1603700607;10;;;Agnieszka;Parot;Różana ;12;;Pilszcz;48-130;14;aga.miska@gmail.com;781345146;3;1;;6,15871E+23;KIT02N;PL;88.199.131.167;28.10.2020;26.10.2020;1;K
+368;KW-235A93;0;179,8;179,8;0.00;0.00;1603704215;10;;Kolor szary i czarny;Paulina;Pańczak;Zielona;11;;Wolsztyn;64-200;14;panczakpaulina93@gmail.com;725441342;3;1;;6,15871E+23;WLS02N;PL;37.30.24.237;28.10.2020;26.10.2020;1;K
+369;KW-308D15;0;102,8;89,9;0.00;gru.90;1603705140;10;;;Piotr;Pomieczyński;Szkolna ;24;;Swarzewo;84-100;14;caralinus@wp.pl;501927092;3;1;;6,15871E+23;LZC01N;PL;91.231.24.173;28.10.2020;26.10.2020;1;M
+370;KW-616F93;0;102,8;89,9;0.00;gru.90;1603713049;10;;;Paweł ;Biedka;Tykadłów 56a;;;Kalisz;62-817;14;paulo1033@wp.pl;503145024;3;1;;6,15871E+23;ZLX01M;PL;79.163.206.24;28.10.2020;26.10.2020;1;M
+371;KW-02075C;0;102,8;89,9;0.00;gru.90;1603734088;10;;;Rafał;Czaja;Gwarecka;39;4;Chorzów;41-500;14;1609rafal@gmail.com;724125538;3;1;;6,15871E+23;CHO05N;PL;89.64.41.201;28.10.2020;26.10.2020;1;M
+372;KW-E59675;0;179,8;179,8;0.00;0.00;1603747840;10;;;Aleksander;Sawicki;Darłowo - Szymanowskiego ;1b;;Darlowo;76-150;14;alexsawicki95@gmail.com;601997619;3;1;;6,15871E+23;DAR03M;PL;62.44.135.44;28.10.2020;26.10.2020;1;M
+373;KW-2A1CFF;0;102,8;89,9;0.00;gru.90;1603753022;10;;poproszę o doliczenie za dodatkowe 2szt przyłbicy;Dariusz;Wrześniewski;Kochanowskiego ;51;1;Warszawa;01-864;14;dwrzes@o2.pl;509825805;3;1;;6,15871E+23;WAW39M;PL;89.64.6.170;11.11.2020;09.11.2020;2;M
+375;KW-2040C8;0;102,8;89,9;0.00;gru.90;1603794451;10;;;Afrodyta;Jankowska;Mickiewicza;18;20;Korsze;11-430;14;onatoma111@gmail.com;514587821;3;1;;6,15871E+23;KZS01A;PL;31.182.236.174;29.10.2020;27.10.2020;1;K
+376;KW-1E729D;0;102,8;89,9;0.00;gru.90;1603795090;10;;;Łukasz ;Muszyński ;Stawowa ;33;;Lipicze;42-270;14;luka.muszynski@gmail.com;509282343;3;1;;6,15871E+23;KOE01N;PL;5.173.116.36;29.10.2020;27.10.2020;1;M
+377;KW-849E1C;0;102,8;89,9;0.00;gru.90;1603795527;10;;;Stanisław;Dzierżyński;Azaliowa;39;3;Dąbrówka;62-069;14;stanislaw.dzierzynski@wp.pl;608761815;3;1;;6,15871E+23;POZ68M;PL;91.233.18.246;29.10.2020;27.10.2020;1;M
+378;KW-12E540;0;102,8;89,9;0.00;gru.90;1603796073;10;;;Feliks ;Brzeziński ;Jana Korcza ;7;6;Gorzów Wielkopolski ;66-400;14;felixfilip77@gmail.com;795780828;3;1;;6,15871E+23;GWI04A;PL;87.49.147.175;29.10.2020;27.10.2020;1;M
+379;KW-034743;0;102,8;89,9;0.00;gru.90;1603797337;10;;Czrny;Krzysztof;Flantowicz ;Królewiecka;;6;Drawsko Pomorskie ;78-500;14;zosiaikrzys@gmail.com;504086294;3;1;;6,1587E+23;DPM408;PL;37.47.222.120;03.11.2020;02.11.2020;2;M
+380;KW-0F7E10;0;179,8;179,8;0.00;0.00;1603798814;10;;"Dane do faktury:
+BTL Łukasz Ostachowski
+ul. Diany 34/3
+80-299 Gdańsk
+NIP: 5842561977";Łukasz;Ostachowski;Diany;34;3;Gdańsk;80-299;14;lo@post.pl;511012400;3;1;;6,15871E+23;GDA01A;PL;31.179.147.78;29.10.2020;27.10.2020;1;M
+381;KW-ABEEA8;0;102,8;89,9;0.00;gru.90;1603805507;10;;;Marek;Jurkiewicz ;Opolska;6A;3;Prószków;46-060;14;jurmar1609@gmail.com;888035252;3;1;;6,15871E+23;POS01A;PL;80.187.85.171;29.10.2020;27.10.2020;1;M
+382;KW-412473;0;102,8;89,9;0.00;gru.90;1603816427;10;;;Slawomir;Walczak;Chobienice ;239;;Chobienice ;64-214;14;sprerzynka@o2.pl;663516767;3;1;;6,15871E+23;CBE01M;PL;195.205.96.1;29.10.2020;27.10.2020;2;M
+383;KW-B20C9B;0;102,8;89,9;0.00;gru.90;1603816718;10;;;Anna ;Cichocka;Rycerska;4;1;Bystrzyca Kłodzka;57-500;14;annacichocka42@gmail.com;730165030;3;1;;6,15871E+23;BYK01M;PL;83.30.250.220;29.10.2020;27.10.2020;1;K
+384;KW-3F4D7E;0;102,8;89,9;0.00;gru.90;1603817267;10;;;Maciej;Musiałowicz;Os Leśne ;28;28;Koziegłowy;62-028;14;aqualani@gmail.com;515254376;3;1;;6,15871E+23;POZ15A;PL;95.108.51.26;28.10.2020;27.10.2020;1;M
+385;KW-99D79F;0;179,8;179,8;0.00;0.00;1603825592;10;;;Tomasz;Strzelecki;Orchów;41a;;Łask;98-100;14;carllewis@wp.pl;500103123;3;1;;6,15871E+23;LAS04M;PL;37.225.45.114;28.10.2020;27.10.2020;2;M
+386;KW-0DF9F5;0;102,8;89,9;0.00;gru.90;1603882714;10;;;REBEL;SHOP;;;;;;14;biuro.worldmar@gmail.com;691455003;3;1;;6,15871E+23;SCH07A;PL;37.30.51.127;29.10.2020;28.10.2020;1;M
+388;KW-896F09;0;102,8;89,9;0.00;gru.90;1603897946;10;;;Tomasz;lach;ludowa;11;6;toszek;44-180;14;tomeklach@op.pl;668549695;3;1;;6,15871E+23;TOS01A;PL;5.184.193.19;29.10.2020;28.10.2020;1;M
+389;KW-06ECF8;3;242,7;269,7;27.00;0.00;1603902534;10;;;Joanna;Gmyrek;Willowa 12b/20;;;Szczecin;71-650;14;joanna.gmyrek@o2.pl;609222747;3;1;;6,15871E+23;SZC261;PL;89.71.217.184;29.10.2020;28.10.2020;1;K
+390;KW-7DE52B;0;102,8;89,9;0.00;gru.90;1603907795;10;;Cofam zgodę na przetwarzanie moich danych przez geometria NIP 9661354780;Agata;Jakubek;Międzychodzka;10;2;Poznań;60-371;14;agacjana@gmail.com;607182024;3;1;;6,15871E+23;POZ67M;PL;213.156.111.11;29.10.2020;28.10.2020;1;K
+393;KW-6F1B19;0;179,8;179,8;0.00;0.00;1603917208;10;;;Tomasz;Sarnicki;Drukarska;45;44;Wrocław;53-311;14;duelistax3@gmail.com;734158752;3;1;;6,15871E+23;WRO10B;PL;178.36.233.32;29.10.2020;29.10.2020;2;M
+395;KW-792E11;0;102,8;89,9;0.00;gru.90;1603999973;10;;;Pawel;Byrski;Korczaka;10;20;Dąbrowa górnicza;41-300;14;byrax4@o2.pl;739201800;3;1;;6,15871E+23;DGO02M;PL;83.242.84.53;30.10.2020;29.10.2020;1;M
+396;KW-A1AEE4;0;269,7;269,7;0.00;0.00;1604041567;10;;;Damian;Pietryka;Majowa 42;;;Mielec;39-300;14;pietrykadamian93@gmail.com;513265250;3;1;;6,15871E+23;MIE05A;PL;94.254.196.218;30.10.2020;30.10.2020;1;M
+398;KW-3214E6;0;102,8;89,9;0.00;gru.90;1604045265;10;;;Ilona;Grabowska;Spacerowa;6;;Bieruń;43-150;14;iloncia@wp.pl;600586220;3;1;;6,15871E+23;BIE02N;PL;91.239.36.249;30.10.2020;30.10.2020;1;K
+399;KW-7B03EB;0;102,8;89,9;0.00;gru.90;1604045995;10;;;Tomasz;Paczkowski;Szeroka;15;36;Kwidzyn ;82-500;14;tpaczkowski@wp.pl;796196007;3;1;;6,15871E+23;KWD02N;PL;5.173.194.23;30.10.2020;30.10.2020;1;M
+400;KW-073DB7;0;102,8;89,9;0.00;gru.90;1604048874;10;;;Alicja;Bujak-Korzeń;Wielopole Skrzyńskie;373;;Wielopole Skrzyńskie;39-110;14;alicia373@wp.pl;782696730;3;1;;6,1587E+23;ROP01N;PL;37.7.47.19;03.11.2020;30.10.2020;1;K
+401;KW-7E3FDD;0;102,8;89,9;0.00;gru.90;1604057888;10;;;Agnieszka ;Zielińska ;Fałata ;19;;Piastów ;05-820;14;agnienia1984@wp.pl;724565458;3;1;;6,15871E+23;PST03N;PL;83.28.212.114;30.10.2020;30.10.2020;1;K
+403;KW-458DA5;0;102,8;89,9;0.00;gru.90;1604166977;10;;;Adam ;Szlas;Dziecielskiego;12;53;Wejherowo;84-200;14;adamlukassz@gmail.com;578762504;3;1;;6,1587E+23;WEJ04A;PL;217.171.61.169;03.11.2020;02.11.2020;2;M
+404;KW-D71B88;0;102,8;89,9;0.00;gru.90;1604173591;10;;;Michał;Brzeziński;Owocowy Sad;47;4;Piaseczno;05-500;14;michal_brzezinski@interia.eu;507009225;3;1;;6,1587E+23;PIA12M;PL;109.206.213.140;03.11.2020;31.10.2020;1;M
+405;KW-82317E;0;102,8;89,9;0.00;gru.90;1604177006;10;;;Bicki;Krzysztof;Bacieczki;143;;białystok;15-686;14;84krzych@gmail.com;662127441;3;1;;6,1587E+23;BIA07A;PL;5.173.13.23;03.11.2020;31.10.2020;1;M
+406;KW-10CA7C;0;102,8;89,9;0.00;gru.90;1604181619;10;;;Albert;Szymański;Zaciszna ;8;;Sulejówek;05-070;14;albertszymanski@gmail.com;515680146;3;1;;6,1587E+23;SUJ01A;PL;37.248.156.75;03.11.2020;31.10.2020;1;M
+407;KW-E64D62;0;102,8;89,9;0.00;gru.90;1604233598;10;;Poproszę kolor ten ciemny szary ;Przemysław;Chabasiński;Zamenhofa;17;7;Police;72-010;14;fula@o2.pl;660532777;3;1;;6,1587E+23;PLO02N;PL;5.173.147.226;03.11.2020;01.11.2020;1;M
+408;KW-F43E62;0;102,8;89,9;0.00;gru.90;1604307777;10;;;Michał;Włodarski;Koźmińskiego;7;;Biała Podlaska;21-500;14;michalwl@poczta.fm;505222657;3;1;;6,1587E+23;BPO04M;PL;31.0.44.60;03.11.2020;02.11.2020;2;M
+409;KW-E3A0D7;0;102,8;89,9;0.00;gru.90;1604308437;10;;;Marcin ;Grela ;Leśna ;26;4;Zawiercie ;42-400;14;marcin.grela@poczta.fm;504053366;3;1;;6,1587E+23;ZAW02A;PL;46.134.109.139;03.11.2020;02.11.2020;1;M
+410;KW-F19525;0;102,8;89,9;0.00;gru.90;1604321680;10;;;Pawel;Woch;Sobieskiego ;2;126;Radom;26-600;14;cultcar.radom@gmail.com;737662626;3;1;;6,1587E+23;RAD01A;PL;5.173.104.62;03.11.2020;02.11.2020;1;M
+411;KW-D1C180;0;179,8;179,8;0.00;0.00;1604325008;10;;;AGATA;JAKUBEK;JARZĘBINOWA;23;;KOSZALIN;75-682;14;agacjana@gmail.com;605720012;3;1;;6,1587E+23;KOS01E;PL;46.215.67.149;03.11.2020;02.11.2020;1;K
+413;KW-D4724C;0;102,8;89,9;0.00;gru.90;1604397051;10;;;Marta ;Derecka;Gibalskiego ;17;21;Warszawa;01-190;14;marta-strach@wp.pl;505773171;3;1;;6,1587E+23;WAW163M;PL;194.50.61.2;03.11.2020;03.11.2020;1;K
+414;KW-BA93B9;0;179,8;179,8;0.00;0.00;1604399684;10;;;Katarzyna;Skorka;Kosocicka 105;105;;Krakow;30-694;14;kasqra@gmail.com;48696169097;3;1;;6,1587E+23;KRA03M;PL;5.173.49.213;03.11.2020;03.11.2020;1;K
+415;KW-694728;0;102,8;89,9;0.00;gru.90;1604406113;10;;;Aneta;Adamczyk;Powsińska ;66;38;Warszawa;02-692;14;anetta008@gmail.com;602467347;3;1;;6,1587E+23;WAW108M;PL;188.146.101.64;04.11.2020;03.11.2020;1;K
+416;KW-D35666;0;102,8;89,9;0.00;gru.90;1604407392;10;;;Paweł;Garbiec;Braci Wieniawskich;8;69;Lublin;20-844;14;pablo141@wp.pl;604117658;3;1;;6,1587E+23;LUB10N;PL;89.73.1.251;04.11.2020;03.11.2020;1;M
+417;KW-ADF801;0;102,8;89,9;0.00;gru.90;1604410015;10;;;Maciej ;Gołębiewski ;Meissnera ;11;55;Warszawa;03-982;14;mac.golebi@wp.pl;603980541;3;1;;6,1587E+23;WAW158M;PL;84.10.156.60;04.11.2020;03.11.2020;1;M
+418;KW-F9BD24;0;102,8;89,9;0.00;gru.90;1604410380;10;;;Tomasz;Gapiński ;Wybickiego;16;4;Kutno;99-300;14;bringo23@gmail.com;726-776-873;3;1;;6,1587E+23;KUT04A;PL;31.182.251.191;04.11.2020;03.11.2020;1;M
+419;KW-F4BF3D;0;102,8;89,9;0.00;gru.90;1604416478;10;;;Dominik ;Fister;Dolna ;1;;Zimnice Male;46-061;14;fisterdominik@gmail.com;696585848;3;1;;6,1587E+23;BGU01M;PL;185.127.21.106;04.11.2020;03.11.2020;1;M
+420;KW-C26623;0;179,8;179,8;0.00;0.00;1604430373;10;;;Monika;Spyra;Zwycięstwa;93;;Paniowki;44-177;14;monika.spyra@poczta.onet.pl;502336118;3;1;;6,1587E+23;PAN01M;PL;46.148.93.196;04.11.2020;03.11.2020;1;K
+421;KW-F5D736;0;102,8;89,9;0.00;gru.90;1604473842;10;;;Grzegorz ;Strzępek ;Piwonii ;4;;Opole ;45-940 ;14;biuro@hydroblokada.pl;500 600 044;3;1;;6,1587E+23;OPO11M;PL;188.123.204.5;04.11.2020;04.11.2020;1;M
+422;KW-6A8CA8;0;102,8;89,9;0.00;gru.90;1604478147;10;;;Bartosz;Skraburski ;Grunwaldzka ;153;;Pobierowo ;72346;14;bartosz.skraburski@gmail.com;724994321;3;1;;6,1587E+23;PBW01A;PL;185.147.70.104;04.11.2020;04.11.2020;1;M
+423;KW-51D197;0;102,8;89,9;0.00;gru.90;1604486810;10;;;REBEL;SHOP;Kuznocina ;;6L;SOCHACZEW ;96-500 ;14;biuro.worldmar@gmail.com;691455003;3;1;;6,1587E+23;SCH07A;PL;188.146.224.97;04.11.2020;04.11.2020;1;M
+424;KW-730332;0;179,8;179,8;0.00;0.00;1604490352;10;;Dzień dobry zamówiłam czapkę szarą i chciała bym żeby to była czapka ciemnoszara.;Katarzyna;Roszer ;Wyzwolenia;11a;3;Łaziska Górne ;43-170;14;katarzynaroszer@onet.pl;784303367;3;1;;6,1587E+23;LGR01N;PL;188.146.104.212;04.11.2020;04.11.2020;1;K
+426;KW-39FA90;0;102,8;89,9;0.00;gru.90;1604502599;10;;;Dariusz;Gerblich;11 listopada;51;1;Chorzów;41-500;14;d.gerblich@gmail.com;888726997;3;1;;6,15871E+23;CHO01M;PL;46.204.4.8;06.11.2020;04.11.2020;1;M
+427;KW-8D6EF7;0;102,8;89,9;0.00;gru.90;1604513399;10;;;Michał;Woźniak;Inżynierska;63;63;Zgierz;95-100;14;michalwozniak112@wp.pl;575513196;3;1;;6,15871E+23;ZGI01A;PL;83.29.66.124;06.11.2020;04.11.2020;1;M
+429;KW-0FD94E;0;102,8;89,9;0.00;gru.90;1604516882;10;;;Mariusz;Holas;Świętego Ducha;26;6;Inowrocław;88-100;14;peres1976@tlen.pl;506220925;3;1;;6,15871E+23;INO01ML;PL;89.230.150.145;06.11.2020;04.11.2020;1;M
+430;KW-48A2C2;0;102,8;89,9;0.00;gru.90;1604554260;10;;;Krzysztof ;Frąckowiak ;Wojska Polskiego ;102c;4;Gryfice;72-300;14;krzysztof_frackowiak@vp.pl;515861803;3;1;;6,15871E+23;GRC02M;PL;37.248.156.208;06.11.2020;05.11.2020;1;M
+431;KW-C85D96;0;179,8;179,8;0.00;0.00;1604560541;10;;;Magdalena;Żelazek;Daszyńskiego 5;5;;Tuplice;68-219;14;madaark@poczta.fm;880442343;3;1;;6,15871E+23;TPC01N;PL;37.30.19.167;06.11.2020;05.11.2020;2;K
+433;KW-1685A4;0;102,8;89,9;0.00;gru.90;1604578419;10;;;Norbert;Łacheta;Poetów;6a;;Warszawa;03-147;14;norbert.lacheta@gmail.com;795703046;3;1;;6,15871E+23;WAW61N;PL;83.24.178.12;06.11.2020;05.11.2020;2;M
+434;KW-68B411;0;102,8;89,9;0.00;gru.90;1604580508;10;;;Mieczysława ;Szmyt;Osiedlowa;11;13;Ruda Śląska ;41-710;14;pimpus8@interia.pl;516332409;3;1;;6,15871E+23;RSL23A;PL;178.37.215.43;06.11.2020;05.11.2020;2;K
+435;KW-00C117;0;359,6;359,6;0.00;0.00;1604584518;10;;;Mariusz;Ostachowski;Kaszubska Droga;31;B;Chwaszczyno;80-209;14;rubikon@home.pl;602335511;3;1;;6,15871E+23;CSC01M;PL;91.233.25.230;06.11.2020;05.11.2020;1;M
+436;KW-ABAF11;0;179,8;179,8;0.00;0.00;1604628477;10;;;Daria;Gołek;Głogowska ;5a;1;Żary ;68-200 ;14;dariagolek5@gmail.com;728 303 390;3;1;;6,15871E+23;ZAR01L;PL;188.147.51.84;06.11.2020;06.11.2020;1;K
+437;KW-D84E97;0;179,8;179,8;0.00;0.00;1604663346;10;;;Magdalena;Kucak;Zamkowa;7b;1;Dąbrówka;62-070 ;14;dziara_77@o2.pl;727933463;3;1;;6,15871E+23;DAB01M;PL;109.173.153.215;06.11.2020;06.11.2020;1;K
+438;KW-569DF9;0;102,8;89,9;0.00;gru.90;1604663902;10;;;MARIUSZ;BICZYK;DZIECINÓW ;36;;SOBIENIE JEZIORY;08-441;14;cezary.ochmann@gmail.com;514841931;3;1;;6,15871E+23;DCW01G;PL;5.173.66.114;06.11.2020;06.11.2020;1;M
+439;KW-3B4637;0;179,8;179,8;0.00;0.00;1604668595;10;;Poproszę o jedną damska i druga męska ;Marlena;Ochrona;Jurajska;3;7;Kielce;25-640;14;marlena.ochman2012@gmail.com;535884888;3;1;;6,15871E+23;KIE01HO;PL;95.41.137.109;06.11.2020;06.11.2020;1;K
+440;KW-0C0C30;0;102,8;89,9;0.00;gru.90;1604684868;10;;;katarzyna;Adamska;Bolesława Chrobrego;67;;Zielona Góra;65-052;14;katarzyna-pysz@wp.pl;535747683;3;1;;6,15871E+23;OCH01A;PL;37.248.163.250;09.11.2020;06.11.2020;1;K
+441;KW-979E9B;0;102,8;89,9;0.00;gru.90;1604742244;10;;;Piotr;Niżnik;Kościuszki;3c;4;Lubin;59-300;14;piotrn173@wp.pl;663176184;3;1;;6,15871E+23;LBU01L;PL;89.64.30.203;09.11.2020;07.11.2020;1;M
+442;KW-C42BE1;0;179,8;179,8;0.00;0.00;1604746908;10;;Witam.Proszę o kolor szary ale ten jaśniejszy nie ciemny,z góry dziękuję i pozdrawiam;ewelina;jakubczyk;Liwa, ul.długa;2D;2D;Miłomłyn;14-140;14;ewelak83@wp.pl;503564276;3;1;;6,15871E+23;MLM01N;PL;37.248.153.113;09.11.2020;07.11.2020;1;K
+444;KW-912621;0;102,8;89,9;0.00;gru.90;1604829644;10;;;Dominik ;Dankowski ;Sienkiewicza ;74;6;Kielce ;25-501 ;14;ddharyszaman@gmail.com;512 684 601;3;1;;6,15871E+23;KIE03A;PL;92.118.12.62;11.11.2020;09.11.2020;2;M
+445;KW-B49E80;0;102,8;89,9;0.00;gru.90;1604844994;10;;;Dorota;Lubawy-Derdas;Sobiesława;5;;Poznań;61-062;14;d.lubawy.derdas@gmail.com;693603876;3;1;;6,15871E+23;POZ42N;PL;77.113.56.22;09.11.2020;08.11.2020;1;K
+446;KW-6B46B2;0;179,8;179,8;0.00;0.00;1604855065;10;;;Weronika;Łojek ;Podlaska;152;;Borzychy;07-100;14;weronika.lojek@onet.pl;795705781;3;1;;6,15871E+23;STX01M;PL;188.146.97.70;09.11.2020;08.11.2020;1;K
+447;KW-CB3E71;0;269,7;269,7;0.00;0.00;1604857852;10;;;Monika ;Karska - Kolinska;Pabicha;2B;;Chojnice;89-600;14;monia.kolinska@onet.eu;48783782946;3;1;;6,15871E+23;CHC06N;PL;5.174.142.215;09.11.2020;08.11.2020;1;K
+448;KW-31997B;0;179,8;179,8;0.00;0.00;1604858482;10;;WItam, zależy mi na szybkiej wysyłce. Pozdrawiam;Kinga;Konecka;Przewiewna;41;;Szczecin;70-742;14;konecka.kinga@gmail.com;514009866;3;1;;6,15871E+23;SZC19A;PL;212.91.242.1;09.11.2020;08.11.2020;1;K
+449;KW-E861D0;0;102,8;89,9;0.00;gru.90;1604863129;10;;;Andrii;Kuzminskyi;Zgrzebionka;5a;;Chorzów;41-516;14;damndraven18@gmail.com;532129833;3;1;;6,15871E+23;CHO01B;PL;188.147.40.5;09.11.2020;08.11.2020;1;M
+450;KW-7C339C;0;102,8;89,9;0.00;gru.90;1604913485;10;;;Joanna;Pleban - Kilman;Chrościckiego ;83;138;Warszawa;02-414;14;joanna.plebanslodka@gmail.com;730996128;3;1;;6,15871E+23;WAW139A;PL;212.180.202.210;09.11.2020;09.11.2020;1;K
+451;KW-8097D3;0;102,8;89,9;0.00;gru.90;1604926059;10;;;Paulina ;Pander ;Cypriana Norwida ;20F;8;Ruda Śląska ;41-700 ;14;paulinapander92@gmail.com;607224024;3;1;;6,15871E+23;RSL05N;PL;89.64.38.31;09.11.2020;09.11.2020;1;K
+452;KW-643D18;0;102,8;89,9;0.00;gru.90;1604954364;10;;;Arkadiusz;Mróz;Kwitnąca;17;41;Warszawa;01-926;14;mroziak99@wp.pl;690971461;3;1;;6,15871E+23;WAW112A;PL;88.156.137.43;11.11.2020;09.11.2020;1;M
+453;KW-C49E31;0;179,8;179,8;0.00;0.00;1604989213;10;;płatność za pobraniem;jerzy;welman;górna;4;8;lublin;20-005;14;jwelman@mail.swmud.net;502235082;3;1;;6,15871E+23;LUB04M;PL;83.26.201.223;11.11.2020;10.11.2020;2;M
+454;KW-406342;0;179,8;179,8;0.00;0.00;1605034824;10;;;Piotr;Bartoń;Chmielnik;334;;Chmielnik;36-016;14;piotr.barton@wp.pl;513089309;3;1;;6,1587E+23;RZE01G;PL;62.133.142.167;12.11.2020;10.11.2020;1;M
+455;KW-57BB1F;0;179,8;179,8;0.00;0.00;1605034901;10;;;Ryszard;Zawadzki;Hlonda;10F;151;Warszawa;02-972;14;rycho77@wp.pl;609622777;3;1;;6,1587E+23;WAW132A;PL;89.64.83.128;12.11.2020;10.11.2020;1;M
+456;KW-F3BF2D;0;102,8;89,9;0.00;gru.90;1605036434;10;;;Grzegorz ;Sienkiewicz;Kolonia ;36;;Sieniawa Żarska;68-213 ;14;MrGrz3chu@gmail.com;731005847;3;1;;6,1587E+23;ZAR03M;PL;5.173.225.51;12.11.2020;10.11.2020;1;M
+457;KW-AF5AA3;0;102,8;89,9;0.00;gru.90;1605082382;10;;;Dariusz ;Barczyński;Topazowa;8;1;Opole;45-940;14;darek.barczynski@gmail.com;600251394;3;1;;6,15871E+23;OPO09A;PL;31.0.87.24;18.11.2020;17.11.2020;2;M
+458;KW-AE1A01;0;179,8;179,8;0.00;0.00;1605121025;10;;;Katarzyna;Matwiejczuk;Chabrowa;12;-;Krupniki;16-070;14;k.matwiejczuk@interia.pl;784321795;3;1;;6,15871E+23;BIA25A;PL;109.231.0.13;16.11.2020;12.11.2020;2;K
+459;KW-1D99C2;0;179,8;179,8;0.00;0.00;1605124976;10;;;Jolanta;Orzechowska;Osiedlowa;18;;Lubin;59-300;14;arek_orzechowski@wp.pl;603111801;3;1;;6,1587E+23;LBU04A;PL;78.8.60.250;12.11.2020;11.11.2020;1;K
+460;KW-EF70FB;0;102,8;89,9;0.00;gru.90;1605126352;10;;;Dariusz ;Porada ;Prymasa 1000 lecia;4;24;Rzeszów ;35-511;14;darian7706@wp.pl;889688797;3;1;;6,1587E+23;POP-RZE36;PL;89.151.41.43;12.11.2020;11.11.2020;1;M
+461;KW-287C97;0;179,8;179,8;0.00;0.00;1605172106;10;;;Weronika;Łojek;Podlaska;152;;Borzychy;07-100;14;weronika.lojek@onet.pl;795705781;3;1;;6,1587E+23;STX01M;PL;188.146.104.4;12.11.2020;12.11.2020;1;K
+462;KW-BFAB21;0;102,8;89,9;0.00;gru.90;1605173904;10;;;Marcin;Kozicki;Michała Wołodyjowskiego;6;;Dzięcioły;05-240;14;mar.kozicki@gmail.com;537875555;3;1;;6,1587E+23;TLU01AP;PL;195.116.250.46;12.11.2020;12.11.2020;1;M
+463;KW-2B833A;0;102,8;89,9;0.00;gru.90;1605190740;10;;;Grzegorz;Rydzanicz;Wojska Polskiego;43;;Lubiąż;56-100;14;rydzaniczg@gmail.com;603836369;3;1;;6,15871E+23;LBI01G;PL;31.0.71.120;16.11.2020;12.11.2020;1;M
+464;KW-245B7C;0;179,8;179,8;0.00;0.00;1605208471;10;;;Ewelina;Grabowska;Os. Podzamcze c;24;10;Nysa;48-300;14;eve1986@o2.pl;662552975;3;1;;6,15871E+23;NYS03N;PL;89.64.58.149;16.11.2020;12.11.2020;1;K
+465;KW-CEDE7E;0;102,8;89,9;0.00;gru.90;1605249418;10;;;Magdalena;Machtyl;Główna;25;sklep;Częstochowa;42-280;14;magda.machtyl@gmail.com;508854446;3;1;;6,15871E+23;CZE05N;PL;89.64.33.14;16.11.2020;13.11.2020;1;K
+466;KW-A7A82E;0;102,8;89,9;0.00;gru.90;1605259527;10;;;Ilona;Grabowska;Spacerowa;6;;Bieruń;43-150;14;iloncia@wp.pl;600586220;3;1;;6,15871E+23;BIE02N;PL;91.239.36.249;16.11.2020;13.11.2020;1;K
+468;KW-B3E18E;0;269,7;269,7;0.00;0.00;1605285687;10;;"Faktura Ośrodek Rozwoju i Inspiracji &quot;ja to Ja&quot; Ewa Krystyna Najder al. J. Pawła II 29/b/33 80-462 Gdańsk 80-462 Gdańsk NIP 5841712210";Ewa;Najder;al. J. Pawła II ;29/b;33;Gdańsk;80-462;14;ewanaider@gmail.com;508273737;3;1;;6,15871E+23;GDA07L;PL;83.25.9.13;16.11.2020;13.11.2020;1;K
+469;KW-E3FEF8;0;102,8;89,9;0.00;gru.90;1605309606;10;;;Piotr;Koszykowski;Sportowa;16;2;Oława ;55-200 ;14;piju@onet.pl;661714916;3;1;;6,15871E+23;OLW01G;PL;5.173.240.157;16.11.2020;14.11.2020;1;M
+471;KW-9C9E7C;0;179,8;179,8;0.00;0.00;1605454001;10;;"Proszę o wystawienie faktury vat 
+na dane:
+
+KLIMATIS MATEUSZ MYSZKA
+ul. Karwińska 11
+52-015 Wrocław
+NIP:  882-19-74-084";Maciej;Włodarczak;Karwińska;11;;Wrocław;52-015;14;maciekwl18@gmail.com;790408636;3;1;;6,15871E+23;WRO25N;PL;89.64.38.46;16.11.2020;15.11.2020;1;M
+472;KW-A63507;0;102,8;89,9;0.00;gru.90;1605464576;10;;;iwona;Wisniewska;Hery;8;24;Gdańsk;80299;14;iwona.wisniewska-szytenhelm@sanofi.com;607370064;3;1;;6,15871E+23;GDA48N;PL;89.64.101.219;16.11.2020;15.11.2020;1;K
+473;KW-7812E8;0;102,8;89,9;0.00;gru.90;1605538104;10;;;Justyna;Ternes;Kamykowa;27;2;Warszawa;03-289;14;justyna.ternes@gmail.com;509672429;3;1;;6,15871E+23;WAW130A;PL;188.146.230.4;18.11.2020;16.11.2020;1;K
+474;KW-BD7596;0;102,8;89,9;0.00;gru.90;1605558634;10;;;Jakub ;Sobieraj ;Luboszewy;495;;Lubochnia ;97-217;14;sobieraj34@wp.pl;517619719;3;1;;6,15871E+23;TMS06A;PL;79.185.220.19;18.11.2020;16.11.2020;1;M
+475;KW-9F977A;0;102,8;89,9;0.00;gru.90;1605564101;10;;;Radosław;Wasielewski;Wrzosowa;8;;Rybno;13-220;14;radruk@op.pl;507614364;3;1;;6,15871E+23;RBN01A;PL;5.184.70.242;18.11.2020;16.11.2020;1;M
+476;KW-43653D;0;102,8;89,9;0.00;gru.90;1605617595;10;;;Krzysztof;Brylczak;Stary Gostyń ;57;;Stary Gostyń ;63-800;14;krzysiek30.07@wp.pl;661242000;3;1;;6,15871E+23;GOS01A;PL;185.50.166.3;18.11.2020;17.11.2020;1;M
+477;KW-DE1A23;0;102,8;89,9;0.00;gru.90;1605645992;10;;;Karol;Rydzeński;Jagiełły ;23;;Sierpc;09-200;14;jakarol@o2.pl;695414098;3;1;;6,15871E+23;SRC02N;PL;46.134.174.144;18.11.2020;17.11.2020;1;M
+478;KW-230D42;0;102,8;89,9;0.00;gru.90;1605689701;10;;;Marcin;Grendus;Kolberga ;17;3;Gliwice;44-102;14;Kev79@tlen.pl;669555487;3;1;;6,15871E+23;GLI19M;PL;37.248.213.121;19.11.2020;19.11.2020;2;M
+479;KW-B5373C;0;102,8;89,9;0.00;gru.90;1605715676;10;;;Aleksandra;Głowacz;Szkolna ;15;Urząd Żeglugi Śródlądowej;Kędzierzyn-Koźle;47-225;14;olaglowacz@o2.pl;665003580;3;1;;6,15871E+23;KKZ07M;PL;37.248.81.119;19.11.2020;18.11.2020;1;K
+480;KW-B1508A;0;102,8;89,9;0.00;gru.90;1605724173;10;;Kolor ciemny szary;Tomasz;Jarczak;Jerzmanice-Zdrój ;60;;Złotoryja;59-500;14;t.j@spoko.pl;794006576;3;1;;6,15871E+23;ZLO03A;PL;95.40.5.140;19.11.2020;19.11.2020;2;M
+481;KW-EC261A;0;102,8;89,9;0.00;gru.90;1605793299;10;;;Szymon;Pączek;Rubinowa;32;;Banino;80-297;14;biuro@crew.com.pl;502359910;3;1;;6,1587E+23;BAN01M;PL;91.221.214.161;23.11.2020;19.11.2020;1;M
+482;KW-CC40FD;0;102,8;89,9;0.00;gru.90;1605873346;10;;;Przemysław;Piekarz;Przedwiośnie;1;14;Lublin;20-533;14;primobaker1@wp.pl;607 809 939;3;1;;6,1587E+23;LUB20M;PL;109.200.91.66;23.11.2020;20.11.2020;1;M
+483;KW-0FEB5D;0;149,8;149,8;0.00;0.00;1605898103;10;;;Mariusz ;Wojciechowski ;Zamenhofa ;2;;Milanówek ;05-822 ;14;amariusz2@o2.pl;539903733;3;1;;6,1587E+23;MIL01M;PL;83.31.214.214;23.11.2020;20.11.2020;1;M
+484;KW-35591A;0;87,8;74,9;0.00;gru.90;1605968766;10;;;Małgorzata ;Koczy ;Długa ;16A ;;Bielsko - Biała ;43:300;14;malgorzatalis9@wp.pl;504107969;3;1;;6,1587E+23;BBI15N;PL;5.184.201.155;23.11.2020;21.11.2020;1;K
+485;KW-1F2BB1;0;149,8;149,8;0.00;0.00;1605970906;10;;;Małgorzata;Burzykowska;Nawrot;82a;10;Łódź;90-046;14;burzykowska.malgorzata@gmail.com;888044357;3;1;;6,1587E+23;LOD20N;PL;31.183.232.94;23.11.2020;21.11.2020;1;K
+488;KW-992DC1;0;149,8;149,8;0.00;0.00;1605988924;10;;;Damian;Gacka;Rusa;7;13;Białośliwie;89-340;14;damian.gacka@wp.pl;695296445;3;1;;6,1587E+23;BSL01G;PL;31.0.45.206;23.11.2020;21.11.2020;1;M
+489;KW-959187;0;299,6;299,6;0.00;0.00;1606002506;10;;;Dorota;Tkaczyk;Kutnowska;6c;;Żyrardów;96-300;14;cervejinha@wp.pl;511724284;3;1;;6,1587E+23;ZYR04N;PL;217.11.128.175;23.11.2020;22.11.2020;1;K
+490;KW-3EF30A;0;87,8;74,9;0.00;gru.90;1606033671;10;;;Łukasz;Molenda;Zawodowa;2;4;Warszawa;04-455;14;lukasz.molenda@spoko.pl;533884155;3;1;;6,1587E+23;WAW50M;PL;188.146.230.61;23.11.2020;22.11.2020;1;M
+492;KW-9E7FD4;0;149,8;149,8;0.00;0.00;1606036673;10;;;TOMASZ ;GAZA;Os.Blekitne;23b;7;Dzierzoniow;58-200;14;gazownik72@o2.pl;796 961 414;3;1;;6,1587E+23;DZI02N;PL;5.173.232.94;23.11.2020;22.11.2020;1;M
+493;KW-A96F4C;0;87,8;74,9;0.00;gru.90;1606061442;10;;;Mariusz ;Stachyra ;Polna;1b;;Sypniewo ;89-422 ;14;mariusz_stachyra@wp.pl;669355656;3;1;;6,1587E+23;SYP01G;PL;188.146.98.84;23.11.2020;22.11.2020;1;M
+494;KW-22C027;0;149,8;149,8;0.00;0.00;1606061682;10;;;Anita;Wodnicka;Koszalińska;20;3;Miastko;77-200;14;aniwod@op.pl;510545333;3;1;;6,1587E+23;MIA03M;PL;188.125.150.254;23.11.2020;22.11.2020;1;K
+495;KW-BC96CD;4;80,8;74,9;7.00;gru.90;1606067791;10;;;Amanda;Ashley;Działkowa ;123;7;Parzniew;05-808;14;forbiddenbusiness7@gmail.com;888251804;3;1;;6,1587E+23;PRU03A;PL;185.153.35.246;23.11.2020;22.11.2020;1;K
+496;KW-61295C;0;87,8;74,9;0.00;gru.90;1606079046;10;;;ANNA;NIEWIADOMSKA;NOWINIARSKA;8;57;WARSZAWA;00-235;14;myk12@wp.pl;668994016;3;1;;6,1587E+23;WAW89M;PL;89.64.16.191;23.11.2020;22.11.2020;1;K
+497;KW-C7D7B5;0;149,8;149,8;0.00;0.00;1606080853;10;;;Dmytro;Bilyi;Marcelińska;100;88;POZNAŃ;60-324;14;whitee452@gmail.com;518330734;3;1;;6,1587E+23;POZ17B;PL;85.221.132.17;23.11.2020;22.11.2020;1;M
+499;KW-545C88;0;87,8;74,9;0.00;gru.90;1606127591;10;;;Anna ;Winkler ;Zamkowa;9;;Tworóg ;42-690 ;14;ania387@poczta.onet.pl;515 270 799;3;1;;6,1587E+23;TWO01M;PL;83.30.37.89;25.11.2020;23.11.2020;1;K
+500;KW-CAFC60;0;87,8;74,9;0.00;gru.90;1606130500;10;;;Leszek;Cierach;Brzozowa;23C;;Wawrów;66-400;14;g7.leszek@gmail.com;507431147;3;1;;6,1587E+23;GWI18M;PL;95.51.39.33;25.11.2020;23.11.2020;1;M
+501;KW-DDD70D;0;149,8;149,8;0.00;0.00;1606151629;10;;;Agata;Jakubek;Międzychodzka;10;2;Poznań;60-371;14;agacjana@gmail.com;607182024;3;1;;6,1587E+23;POZ67M;PL;213.156.111.11;25.11.2020;23.11.2020;1;K
+503;KW-41BCC6;0;149,8;149,8;0.00;0.00;1606152553;10;;;Jacek Górski;Górski;Konopnickiej;60/66;9;#NAZWA?;95-200;14;jacer551v8@gmail.com;602761877;3;1;;6,1587E+23;PAB13M;PL;5.173.208.114;25.11.2020;23.11.2020;1;M
+504;KW-C50663;0;149,8;149,8;0.00;0.00;1606210698;10;;;Łukasz;Szklanko;Spokojna;11;;Białystok;15-715;14;lukaszenko@gmail.com;790825003;3;1;;6,1587E+23;BIA25N;PL;85.193.195.116;25.11.2020;24.11.2020;1;M
+505;KW-34EA46;0;87,8;74,9;0.00;gru.90;1606215489;10;;;Mateusz;Kucharczyk;Lipowa ;3b;;Biestrzyków ;55-010;14;mateusz92@opoczta.pl;530177644;3;1;;6,1587E+23;ZWR01M;PL;5.173.242.15;25.11.2020;24.11.2020;2;M
+507;KW-E365E3;0;87,8;74,9;0.00;gru.90;1606250612;10;;;żaneta;Stanek;białe Zagłębie;7;7;Nowiny;26-052;14;az12@vp.pl;502206004;3;1;;6,1587E+23;NWI01M;PL;83.26.218.225;25.11.2020;24.11.2020;1;K
+508;KW-E6C1F4;0;87,8;74,9;0.00;gru.90;1606328988;10;;;Bartosz ;Skraburski ;Grunwaldzka ;153;;Pobierowo ;72-346;14;bartosz.skraburski@gmail.com;724994321;3;1;;;PBW01A;PL;185.147.70.104;27.11.2020;25.11.2020;1;M
+509;KW-5E1DA7;0;87,8;74,9;0.00;gru.90;1606370733;10;;Proszę o wysyłkę w piątek. Dziękuję z góry. Pozdrawiam ;Przemysław ;Uryś;Polna;12a;35;Ciechocinek;87-720;14;przemyslaw.urys@gmail.com;602289646;3;1;;;CEI01N;PL;193.142.3.104;27.11.2020;26.11.2020;1;M
+510;KW-D5CAE5;0;149,8;149,8;0.00;0.00;1606400194;10;;;Dominik;Fister;Dolna ;1;;Zimnice Male;46-061;14;fisterdominik@gmail.com;696585848;3;1;;;POS01A;PL;91.65.227.47;27.11.2020;26.11.2020;1;M
+511;KW-806250;0;87,8;74,9;0.00;gru.90;1606406398;10;;;Miron;Nurski;Andersa;28;10;Piła;64-920;14;nmyron.contact@gmail.com;886262712;3;1;;;PIL01A;PL;86.63.82.73;27.11.2020;26.11.2020;1;M
+512;KW-242EE7;0;149,8;149,8;0.00;0.00;1606406947;10;;;Iwona;Soboczyńska;Lubajny;51;;Ostróda;14-100;14;iwona.karpik@wp.pl;502342279;3;1;;;OST08N;PL;46.76.113.112;27.11.2020;26.11.2020;1;K
+513;KW-23F7B2;0;87,8;74,9;0.00;gru.90;1606455076;10;;;Tomasz;Nowaczyk;Wiesniacza;14;2;Gniezno;62-200;14;tomasz-nowaczyk7777@wp.pl;887 126 906;3;1;;;GNI05N;PL;37.248.210.111;27.11.2020;27.11.2020;1;M
+514;KW-9DB08A;0;87,8;74,9;0.00;gru.90;1606484694;10;;do zamówienia Nr zamówienia: KW-2C8960 (opłacone);Andrzej ;Grocholski;Jana Bytnara Rudego;12d ;904;Opole ;45-265 ;14;moondaughter@o2.pl;539967999;3;1;;;OPO01M;PL;87.205.145.31;27.11.2020;27.11.2020;2;M
+515;KW-B64F52;0;87,8;74,9;0.00;gru.90;1606493409;10;;;Tadeusz;Araszkiewicz;Karłowicza ;1;13;Lublin;20-027;14;tadekara@interia.pl;503163212;3;1;;6,15871E+23;LUB04ML;PL;79.187.75.66;30.11.2020;27.11.2020;1;M
+516;KW-414EE1;0;87,8;74,9;0.00;gru.90;1606495083;10;;;Katarzyna ;Lewandowska ;Dłutka ;4;47;Rypin ;87-500 ;14;kabi21@wp.pl;533283121;3;1;;6,15871E+23;RYP01A;PL;185.183.226.197;30.11.2020;27.11.2020;1;K
+517;KW-6F3EE9;0;87,8;74,9;0.00;gru.90;1606513992;10;;;Martyna;Celebańska;jana pawła II;80;22E;Warszawa;00-175;14;martyna.celebanska@gazeta.pl;606838686;3;1;;6,15871E+23;WAW106A;PL;176.221.123.227;30.11.2020;27.11.2020;1;K
+518;KW-A894E4;0;149,8;149,8;0.00;0.00;1606557883;10;;;Dawid ;Zieliński ;Bartnicka ;36;1;Libertów ;30-444 ;14;d.zielinski78@gmail.com;510200010;3;1;;6,15871E+23;KRA23M;PL;91.231.61.253;30.11.2020;28.11.2020;1;M
+519;KW-8B2BBC;0;87,8;74,9;0.00;gru.90;1606582751;10;;;Zdzisław;Picheta;Strzeżenice;18;18;Mścice;76031;14;zdzislaw.picheta@gmail.com;508161233;3;1;;6,15871E+23;MXC01N;PL;37.47.248.171;30.11.2020;28.11.2020;1;M
+520;KW-CC7F88;0;87,8;74,9;0.00;gru.90;1606582791;10;;;Elżbieta;Gilewicz;Sosnowa;6;;Koszalin;75-683;14;gilewicz@post.pl;48608287225;3;1;;6,15871E+23;KOS13M;PL;83.20.55.65;30.11.2020;28.11.2020;1;K
+522;KW-AEB4F3;0;87,8;74,9;0.00;gru.90;1606583254;10;;;Paulina;Lefik;Ciasna;12a;7;Łódź;93-547;14;paulinalefik@interia.pl;693457397;3;1;;6,15871E+23;LOD09B;PL;5.173.168.18;30.11.2020;28.11.2020;1;K
+523;KW-F079CF;0;87,8;74,9;0.00;gru.90;1606586057;10;;;Anna;Pławińska;kaliska;39;39;Władysławów;62-710;14;aplawinska@wp.pl;693832952;3;1;;6,15871E+23;WLD01N;PL;85.221.134.9;30.11.2020;28.11.2020;1;K
+524;KW-4B76D9;0;87,8;74,9;0.00;gru.90;1606592168;10;;Proszę o szybką wysyłkę. Dziękuję i pozdrawiam. ;Aleksandra ;Przybylska ;Limanowskiego ;9;28;Krapkowice ;47-300 ;14;maciejka298@gmail.com;602277667;3;1;;6,15871E+23;KRP02M;PL;109.241.13.7;30.11.2020;28.11.2020;1;K
+525;KW-60DFBD;0;149,8;149,8;0.00;0.00;1606638818;10;;;Aneta;Ploch;Bartłomieja;5;70;Warszawa;02-683;14;anetka4@op.pl;515526934;3;1;;6,15871E+23;WAW59M;PL;78.10.207.187;30.11.2020;29.11.2020;1;K
+526;KW-35FFD8;0;87,8;74,9;0.00;gru.90;1606652639;10;;;Bartlomiej;Kubas;Andersena;25;;Lodz;94-118;14;bartkub@hotmail.com;606401171;3;1;;6,15871E+23;LOD31M;PL;95.175.3.4;30.11.2020;29.11.2020;1;M
+527;KW-00E43A;0;87,8;74,9;0.00;gru.90;1606681381;10;;;Zbigniew;Bobryk;Siadło Górne ;Siadło Górne 28;;Kołbaskowo;72-001;14;z.bobryk@o2.pl;503848463;3;1;;6,15871E+23;WRM02M;PL;31.0.127.100;30.11.2020;29.11.2020;1;M
+528;KW-5AF9A9;0;87,8;74,9;0.00;gru.90;1606736039;10;;;Marcin;Wojtkowski;Grzybowa;27;27;Ostrów Wielkopolski;63-400;14;marcin.wojtkowski@o2.pl;603 609 403;3;1;;6,15871E+23;OWI13N;PL;31.0.83.155;30.11.2020;30.11.2020;1;M
+529;KW-C2B486;0;87,8;74,9;0.00;gru.90;1606773280;10;;Proszę o nie wpisywanie maila na paczce, to prezent niespodzianka ;Janusz;Dziedzic;Tysiąclecia ;20;;Brzeszcze;32-620;14;info@kiowi.pl;784039810;3;1;;6,1587E+23;BSC01MP;PL;185.21.148.14;02.12.2020;30.11.2020;1;M
+530;KW-E479AB;0;87,8;74,9;0.00;gru.90;1606819313;10;;;Michał;Mazur;3 Maja;18i;1;Oława;55-200;14;michal-mazur-zjl@wp.pl;665747341;3;1;;6,1587E+23;OLW03A;PL;84.38.215.55;02.12.2020;02.12.2020;2;M
+531;KW-E3F0AA;0;102,8;89,9;0.00;gru.90;1606845817;10;;;Magdalena;Kucak;Zamkowa;7b;1;Dąbrówka;62-070;14;dziara_77@o2.pl;727933463;3;1;;6,1587E+23;DAB01N;PL;109.173.153.215;02.12.2020;01.12.2020;1;K
+532;KW-58AADA;0;102,8;89,9;0.00;gru.90;1606856212;10;;;Anna;Trojanowska;Włościańska;79;;Białystok;15-199;14;annastellaphoto@gmail.com;502428171;3;1;;6,1587E+23;BIA10N;PL;91.237.137.250;02.12.2020;01.12.2020;1;K
+533;KW-23D126;12;148,8;179,8;31.00;0.00;1606914333;10;;;Piotr;Kuhny;Kuźnicy Kołłątajowskiej;15;5;Kraków;31-234;14;bobas@kuhny.biz;501070883;3;1;;;KRA49M;PL;31.179.35.154;04.12.2020;02.12.2020;1;M
+535;KW-1E112C;0;179,8;179,8;0.00;0.00;1606991216;10;;;Alina;Sirocka;Funkcyjna;5;;Białystok;15-587 ;14;alinasirocka@gmail.com;781757725;3;1;;;BIA17M;PL;5.173.8.198;04.12.2020;03.12.2020;1;K
+536;KW-18EA71;0;179,8;179,8;0.00;0.00;1606997224;10;;Proszę 1 czapkę w kolorze  czarnym, drugą ciemnoniebieską;Zuzanna;Banaszuk;Harnasie;8;7;Lublin;20-857;14;zbanaszuk@gmail.com;513697987;3;1;;;LUB10A;PL;178.37.245.140;04.12.2020;03.12.2020;1;K
+537;KW-B74435;0;102,8;89,9;0.00;gru.90;1607008729;10;;;Piotr;Trawiński;Karlin ul. Południowa;14;;Moszczenica;97-310;14;oli619@o2.pl;691-720-990;3;1;;;PTR05A;PL;188.241.29.50;04.12.2020;04.12.2020;2;M
+538;KW-5A4911;0;102,8;89,9;0.00;gru.90;1607086883;10;;;Magdalena;Jaszcz;Na Zaspę;23;2;Gdańsk;80-546 ;14;madziksz21@o2.pl;882-512-847 ;3;1;;6,15871E+23;GDA36N;PL;188.147.101.101;08.12.2020;08.12.2020;2;K
+539;KW-1B06EB;0;179,8;179,8;0.00;0.00;1607160977;10;;;Krzysztof ;Kmiecik;Kosynierów;7;11;Olkusz;32-300;14;kkrrzzyycchhuu@gmail.com;799327014;3;1;;6,15871E+23;OLK03A;PL;89.64.33.41;08.12.2020;05.12.2020;1;M
+540;KW-F8AB8E;0;102,8;89,9;0.00;gru.90;1607510833;10;;;Łukasz ;Bazarewicz;Kawaleryjska;28;;Białystok;15-324;14;l.bazarewicz@gmail.com;888822248;3;1;;;BIA22N;PL;31.135.192.11;21.12.2020;0000-00-00;0;M
+541;KW-62D1E5;0;89,9;89,9;0.00;0.00;1607606699;10;;;Dawid;Kopera;Krasińskiego;15A;28;Wrocław;55-449;14;d.kopera@hotmail.com;792567372;3;1;;6,1587E+23;WRO105M;PL;213.25.93.19;11.12.2020;10.12.2020;2;M
+542;KW-BB3908;0;179,8;179,8;0.00;0.00;1607641564;10;;;Marcelina;Gancarz;Boryszewo Stare;8;;Rogozino;09-442;14;marcelina.gancarz@gmail.com;669568406;3;1;;6,1587E+23;RGZ01M;PL;46.227.39.145;11.12.2020;11.12.2020;1;K
+543;KW-9724A2;0;89,9;89,9;0.00;0.00;1607717489;10;;;Aneta;Dąbkowska;Tuwima;8;26;Ełk;19-300;14;anetadabkowska@o2.pl;664911598;3;1;;6,1587E+23;ELK01M;PL;89.228.53.81;14.12.2020;11.12.2020;1;K
+544;KW-DEBB7B;0;89,9;89,9;0.00;0.00;1607890714;10;;;Anna;Król;Żółtki;93;;Choroszcz;16-070;14;anna.krol1@o2.pl;500011500;3;1;;6,1587E+23;BIA06A;PL;31.0.38.132;14.12.2020;13.12.2020;1;K
+545;KW-8A8678;0;89,9;89,9;0.00;0.00;1607931418;10;;;Liliana;Komuda;Cytrynowa ;1A;;Domasław;55-040;14;lilianakomuda@o2.pl;691496468;3;1;;6,1587E+23;BWR01N;PL;37.248.164.224;14.12.2020;14.12.2020;1;K
+548;KW-22F7FD;0;269,7;269,7;0.00;0.00;1608027653;10;;;Anna;Łapinska;ul. Witosa ;16;16;Białystok;15-660;14;ankalz@interia.pl;515126600;3;1;;6,15871E+23;BIA09A;PL;80.53.184.161;16.12.2020;15.12.2020;1;K
+549;KW-3E4365;0;179,8;179,8;0.00;0.00;1608063416;10;;;Mariusz ;Łapawa;Zakładowa ;22;25;Wroclaw;50-231;14;mcmlapawa@gmail.com;607822602;3;1;;6,15871E+23;WRO30N;PL;31.0.71.228;16.12.2020;15.12.2020;1;M
+550;KW-0C84B9;0;102,8;89,9;0.00;gru.90;1608127159;10;;;Magdalena;Kozlowska;Zawiszy czarnego;6;97;Katowice;40-872;14;magda-ikam@wp.pl;537115118;3;1;;6,15871E+23;KAT06M;PL;5.184.236.130;18.12.2020;18.12.2020;2;K
+551;KW-115C97;0;102,8;89,9;0.00;gru.90;1608187722;10;;;Jolanta;Orzechowska;Osiedlowa;18;;Lubin;59-300;14;arek_orzechowski@wp.pl;603111801;3;1;;6,15871E+23;LBU02N;PL;89.78.186.96;18.12.2020;17.12.2020;1;K
+552;KW-8E664D;0;179,8;179,8;0.00;0.00;1608281719;10;;;Michał;Jaworski;Warszawska;4;;Wilga;08-470;14;jawor500@gmail.com;721590751;3;1;;;WLG02G;PL;31.0.46.235;21.12.2020;0000-00-00;0;M
+553;KW-E52C4B;0;102,8;89,9;0.00;gru.90;1608314696;10;;;Edyta;Leszko;Spokojna;1;;Kolsko;67-415;14;edal1@wp.pl;504313011;3;1;;6,1587E+23;KOK01M;PL;83.23.231.159;22.12.2020;18.12.2020;1;K
+554;KW-939E20;0;102,8;89,9;0.00;gru.90;1608370978;10;;;Filip;Rogaczewski;Śląska;68a;3;Gdańsk;80-389;14;frszafy88@gmail.com;500600139;3;1;;6,1587E+23;GDA12M;PL;89.64.96.174;22.12.2020;19.12.2020;1;M
+555;KW-1ABBDB;0;102,8;89,9;0.00;gru.90;1608399219;10;;Zamawiam kolor czarny czapki.dziekuje;Ireneusz;Wandzioch;Wrocławska ;26;9;Opole;45-701;14;irekwandzioch@interia.pl;572735945;3;1;;;OPO09A;PL;83.22.183.95;21.12.2020;0000-00-00;0;M
+556;KW-2B48B0;0;102,8;89,9;0.00;gru.90;1608401890;10;;;Jolanta;Kuczyńska;Osiedle xxx lecia 6/18;6;18;Krapkowice;47-303;14;liwiana@wp.pl;604214458;3;1;;;KRP02N;PL;37.248.163.131;21.12.2020;0000-00-00;0;K
+557;KW-0217BE;0;102,8;89,9;0.00;gru.90;1608406394;10;;;Mariusz ;Kamiński ;Niepodległości ;206;5;Wałbrzych ;58 303;14;kamyk00009@gmail.com;48 511 405 697;3;1;;;WAL04N;PL;217.97.100.22;21.12.2020;0000-00-00;0;M
+558;KW-830381;0;102,8;89,9;0.00;gru.90;1608499610;10;;;Natalia ;Juchniewicz ;Reja ;32 d;4;Gdańsk ;80-870 ;14;n.juchniewicz@interia.pl;509219025;3;1;;6,1587E+23;GDA35N;PL;79.186.161.87;22.12.2020;20.12.2020;1;K
+559;KW-622729;0;102,8;89,9;0.00;gru.90;1608536178;10;;;Krzysztof;Boryszewski;Skarbka z Gór;144A;11;Warszawa;03-287;14;krzysiekboryszewski@gmail.com;506077097;3;1;;6,1587E+23;WAW221M;PL;37.47.36.53;22.12.2020;21.12.2020;1;M

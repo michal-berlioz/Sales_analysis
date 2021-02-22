@@ -1,0 +1,560 @@
+---
+title: "Sklep X"
+author: "Michał Lewsza"
+date: "2020-12-29"
+output: html_document
+---
+
+```{r setup, include=FALSE, out.width = "200%"}
+knitr::opts_chunk$set(echo = FALSE , message=FALSE, warning=FALSE, error=FALSE, results=TRUE)
+
+```
+
+```{r import, results=F}
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+library(writexl)
+library(rlist)
+library(scales)
+library(gap)
+
+kiowi_prod <- read.csv("kiowi_zamow_produkty_DB.csv", sep = ";")
+kiowi_zam <- read.csv("kiowi_zamow_DB.csv", sep = ";")
+fb_rap <- read.csv("Raport_FB.csv")
+covid_pl <- read.csv("covid_PL.csv", sep=",")
+covid_pl$Data <- as_date(covid_pl$Data, "%Y-%m-%d")
+
+pogoda_wrz <- read.csv("data09-2020.csv", sep=";", skip = 1)
+pogoda_paz <- read.csv("data10-2020.csv", sep=";" , skip = 1)
+pogoda_lis <- read.csv("data11-2020.csv", sep=";", skip = 1)
+pogoda_gru <- read.csv("data12-2020.csv", sep=";",  skip = 1)
+
+pogoda_df <- rbind(pogoda_wrz, pogoda_paz, pogoda_lis, pogoda_gru)
+
+pogoda_df$Data <- as.Date(pogoda_df$Data, "%d-%m-%Y")
+pogoda_df$Temperatura...C. <- as.character(pogoda_df$Temperatura...C.)
+pogoda_df$Temperatura...C. <- as.numeric(pogoda_df$Temperatura...C.)
+pogoda_df <- pogoda_df %>% group_by(Data)%>%
+  summarise(temp = mean(Temperatura...C., na.rm = T))
+
+
+
+```
+
+```{r cleaning, results=F}
+#zamiana nazwy kolumn
+colnames(fb_rap)[c(1,4)] <- c("wiek","zasieg")
+colnames(covid_pl)[2] <- "nowe_zakazenia"
+#dolaczenie danych o liczbie zam i kolorze czapki do kiowi_zam:
+kiowi_zam_prod <- kiowi_zam %>%
+  full_join(kiowi_prod, by = "zamow_id") %>%
+  select(c(1,38, 39, 8,32,36,39)) %>%
+  mutate(przychod = cena * ilosc) %>%
+  drop_na(timestamp)
+
+
+colnames(fb_rap)[2] <- "plec" 
+colnames(fb_rap)[3] <- "dzien" 
+#zamiana timestamp na date
+
+kiowi_zam_prod <- kiowi_zam_prod %>%
+  mutate(czas_zam = as.POSIXct(timestamp, origin="1970-01-01")) %>%
+  mutate(data_zam = as.Date(czas_zam),
+         d_tyg = wday(data_zam, week_start = 1, label = T),
+         plec = case_when(plec == "K" ~ "female",
+                          plec == "M"~ "male"))
+
+#kiowi_zam_prod$przychod <-as.numeric(gsub(",","\\.", kiowi_zam_prod$przychod))
+
+fb_rap$dzien <- as_date(fb_rap$dzien, "%Y-%m-%d")
+
+
+#kiowi_df$budzet <- as.numeric(gsub(",", "\\.", kiowi_df$budzet))
+#kiowi_df$przychod <- as.numeric(gsub(",", "\\.", kiowi_df$przychod))
+#kiowi_df$
+#  dzien <- kiowi_df$dzien %>%
+#  as.character() %>%
+#  as.Date("%d.%m.%Y") %>%
+#  format("%Y-%m-%d")
+
+#kiowi_df <- kiowi_df %>%
+#  mutate(d_tyg = wday(dzien, label = T))
+
+```
+
+```{r combining_frames}
+raport_fb <- fb_rap %>%
+  group_by(dzien, plec) %>%
+  summarise(
+    zasieg = sum(zasieg, na.rm=TRUE),
+    wyswietlenia = sum(Wyswietlenia, na.rm=TRUE),
+    budzet = sum(Budzet, na.rm=TRUE),
+    kliki = sum(Kliki, na.rm=TRUE),
+    zakupy_fb = sum(Zakupy, na.rm=TRUE),
+    komenty_post = sum(Komenty_post, na.rm=TRUE),
+    reakcje_post = sum(Reakcje_post, na.rm=TRUE)
+    )
+
+kiowi_dzien_plec <-  kiowi_zam_prod %>%
+  group_by(data_zam, plec, d_tyg) %>%
+  summarise(
+    liczba_prod = sum(ilosc),
+    przychod = sum(przychod),
+    liczba_zam = n_distinct(zamow_id)
+  )
+
+kampania_df <- raport_fb %>%
+  full_join(kiowi_dzien_plec, by = c("dzien"="data_zam", "plec"="plec"))
+
+kampania_dni <- kampania_df %>%
+  group_by(dzien) %>%
+  summarise(    
+    zasieg = sum(zasieg, na.rm=TRUE),
+    wyswietlenia = sum(wyswietlenia, na.rm=TRUE),
+    budzet = sum(budzet, na.rm=TRUE),
+    kliki = sum(kliki, na.rm=TRUE),
+    zakupy_fb = sum(zakupy_fb, na.rm=TRUE),
+    komenty_post = sum(komenty_post, na.rm=TRUE),
+    reakcje_post = sum(reakcje_post, na.rm=TRUE),
+    przychod = sum(przychod, na.rm=TRUE),
+    liczba_prod = sum(liczba_prod, na.rm=TRUE),
+    liczba_zam = sum(liczba_zam, na.rm=TRUE),
+    ) %>%
+  mutate(dzien_tyg = wday(dzien, week_start = 1, label = T, abbr = T)) %>%
+  mutate(miesiac = month(dzien))
+
+
+kampania_dni <- kampania_dni %>%
+  left_join(covid_pl, by = c("dzien" = "Data")) %>%
+  mutate(zakazenia_przedzial = case_when(nowe_zakazenia <5000 ~ "0-5k",
+                                         (nowe_zakazenia >= 5000) & (nowe_zakazenia < 10000)  ~ "5k-10k",
+                                         (nowe_zakazenia >= 10000) & (nowe_zakazenia) < 15000  ~ "10k-15k",
+                                         (nowe_zakazenia >= 15000) & (nowe_zakazenia) < 20000  ~ "15k-20k",
+                                          nowe_zakazenia >= 20000  ~ "20k+"))
+
+kampania_dni$zakazenia_przedzial = factor(kampania_dni$zakazenia_przedzial, levels = c("0-5k","5k-10k", "10k-15k", 
+                                                                                       "15k-20k","20k+" ))
+
+kampania_dni <- kampania_dni %>%
+  mutate(przyrost_zakazen = nowe_zakazenia - lag(nowe_zakazenia),
+         zakazenia_lag1 = lag(nowe_zakazenia))
+
+kampania_dni <- kampania_dni %>% left_join(pogoda_df, by = c("dzien"="Data"))
+
+kampania_dni$miesiac = factor(kampania_dni$miesiac)
+#kampania_dni %>% ggplot(aes(x=nowe_zakazenia))+
+#  geom_density()
+```
+
+
+
+## Analiza sprzedaży i wydatków reklamowych {.tabset}
+
+### Korelacja
+<br>
+<div class=text-justify>|      Badaniu korelacji zostaną poddane parametry ilościowe opisujące natężenie kampanii*(e.g. budżet, wyświetlenia, zasięgi, klikniecia)* i wyniki sprzedaży *(przychód, liczba dokonanych zamówień, liczba sprzedanych produktów)*. Dodatkowo, parametry natężenia kampanii zostaną opóźnione w celu zbadania opóźnionego efektu na sprzedaż:
+</div>
+<br>
+```{r correlation, echo = F}
+cor_mat <- kampania_dni %>% select(where(is.numeric)) %>%
+  cor(use = "pairwise.complete.obs")
+
+cor_df <- cor_mat %>% 
+  as_tibble(rownames = "variable") %>%
+  select(variable, liczba_zam, liczba_prod, przychod)
+
+cor_df
+```
+<div class=text-justify>  
+|      Wskaźniki korelacji wykazują silną, pozytywną(>0,5) korelację pomiędzy intensywnością kampanii a wynikami sprzedaży. Można stwierdzić, że istnieje silna bezpośrednia zależność między wydatkami reklamowymi a przychodem ze sprzedaży (korelacja: 0.749).
+Równie silna zależność w kontekście przychodów występuje w przypadku takich parametrów jak: 'kliknięcia', 'komentarze postow', 'reakcje na posty'.
+</div>
+<br>
+<div class=text-justify>
+|      Poniższy wykres obrazuje korelację wydatków na reklamę z przychodem w zależności od rzędu opóźnienia *(e.g. korelacja dla rzędu = 2 mówi jaki związek mają przedwczorajsze wydatki z dzisiejszym przychodem)* Z każdym kolejnym opóźnieniem korelacja maleje, co znaczy, że **wydatki na reklamę mają największe przełożenie na przychód tego samego dnia.**
+<br>
+</div>
+```{r lagging, results=T}
+
+lag_value <-  1 
+lagi <-  c(1:15)
+lista_cor <- c()
+for (lag_value in lagi){
+  kampania_lagged <- kampania_dni %>%
+    mutate(zasieg_l1 = lag(zasieg, lag_value),
+           wyswietlenia_l1 = lag(wyswietlenia, lag_value),
+           kliki_l1 = lag(kliki, lag_value),
+           budzet_l1 = lag(budzet, lag_value))
+  
+  cor_mat_l <- kampania_lagged %>% select(where(is.numeric)) %>%
+    cor(use = "pairwise.complete.obs")
+  
+    cor_df_l <- cor_mat_l %>% 
+      as_tibble(rownames = "variable") %>%
+      select(variable, liczba_zam, liczba_prod, przychod)
+    
+    cor_df_l_1 <- cor_df_l %>%  
+      select(variable, przychod) %>%
+      filter(variable == "budzet_l1")
+    
+    lista_cor[lag_value] <- cor_df_l_1[[1,2]]
+}
+
+lag_tab <-  cbind(lagi, lista_cor)
+lag_tab <- as_tibble(lag_tab)
+lag_tab %>% ggplot(aes(x=lagi, y = lista_cor, label=round(lista_cor,2))) +
+  geom_point()+
+  labs(x="rząd opóźnienia", y="korelacja", title = "korelacja: wydatki opóźnione vs przychód") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 2)) +
+  scale_x_continuous("rząd opóźnienia", labels = as.character(lagi), breaks = lagi) +
+  geom_text(position = position_dodge(width = 1), vjust = -0.7, size = 2.8,)
+```
+<div class=text-justify>
+|      Wydatki z kolejnymi opóźnieniami cechują się również wysokimi wskaźnikami korelacji. Jednak może to dawać złudny obraz, ponieważ sam szereg czasowy wydatków na reklamę cechuje się silną autokorelacją o czym świadczy poniższy wykres:
+</div>
+<br>
+
+```{r acf, results=T}
+autokorelacja_wydatkow <- kampania_dni$budzet
+acf(autokorelacja_wydatkow)
+
+```
+
+<div class=text-justify>
+|      **Podsumowując: **najrozsądniej jest przyjąć hipotezę, mówiącą, że wydatki na reklamę mają silny wpływ na przychód **tego samego dnia.**
+</div>
+<br>
+<br>
+
+```{r days_of_week}
+
+dni_tyg_df <- kampania_dni %>%
+  group_by(dzien_tyg) %>%
+  summarise(
+    zasieg = mean(zasieg),
+    wyswietlenia = mean(wyswietlenia),
+    kliki = mean(kliki),
+    budzet = mean(budzet),
+    liczba_prod = mean(liczba_prod),
+    liczba_zam = mean(liczba_zam),
+    przychod = mean(przychod),
+    liczba_obs = sum(!is.na(dzien_tyg))
+  )
+```
+
+### Kolor czapek
+<div class=text-justify>
+
+|      W tej zakładce odpowiemy graficznie na proste pytania związane ze sprzedażą czapek ze względu na kolor:
+
+<br>
+</div>
+```{r kolor_czapek, out.width = "80%"}
+kolor_czapek <- kiowi_zam_prod %>%
+  group_by(kolor, plec) %>%
+  summarise(ilosc = sum(ilosc))
+
+kolor_czapek %>% ggplot(aes(x=kolor, y=ilosc, fill=plec, label=ilosc)) +
+  geom_bar(stat="identity")+
+  geom_text(vjust = 1.5, position = position_dodge(width = 0))+
+  facet_wrap(vars(plec)) +
+  labs(title = "Sprzedaż czapek ze względu na kolor i płeć")+
+  theme(axis.text.x = element_text(angle = 90, hjust = 0, vjust = 0))
+```
+
+```{r kolor_czapek_procenty, out.width = "80%"}
+
+kolor_czapek_2 <- kolor_czapek %>%
+  group_by(plec) %>%
+  mutate(udzial = ilosc/sum(ilosc)*100)
+
+kolor_czapek_2 %>% ggplot(aes(x=kolor, y=udzial, fill=plec)) +
+  geom_bar(stat="identity")+
+  facet_wrap(vars(plec)) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 0, vjust = 0)) +
+  geom_text(aes(label = paste(sprintf("%.1f", udzial), "%", sep=""), 
+                  y = udzial+2.7))
+
+
+
+```
+
+<br>
+<br>
+
+### Efekt dnia tygodnia
+
+
+Czy dzień tygodnia ma wpływ na sprzedaż czapek Kiowi?
+
+<br>
+
+```{r plotting_prod_zam}
+dni_tyg_plot_2 <- dni_tyg_df %>%
+  select(dzien_tyg, liczba_prod, liczba_zam) %>%
+  pivot_longer(cols=c("liczba_prod", "liczba_zam"), names_to = "variable", values_to = "value") %>%
+  mutate(sr_liczba_prod = mean(kampania_dni$liczba_prod),
+         sr_liczba_zam = mean(kampania_dni$liczba_zam)
+  )
+
+# dni_tyg_plot_2 %>% ggplot(aes(x=dzien_tyg, y=value, fill = variable, label = round(value,2))) +
+#   geom_bar(stat='identity', position='dodge') +
+#   geom_errorbar(aes(x=dzien_tyg, ymax = sr_liczba_zam, ymin=sr_liczba_zam, color="średnia dzienna liczba zamówień"), width = 1.5, inherit.aes = F) +
+#   scale_color_manual(name = "", values = c("#4DAFA9")) +
+#   geom_text(vjust = 1.1, position = position_dodge(width = 1), size = 3.5) +
+#   labs(title = "Liczba zamówionych produktów i zamówień w dniach tygodnia",
+#        x="dni tygodnia",
+#        y="Ilość")
+
+dni_tyg_df %>% ggplot(aes(y=liczba_zam, x=dzien_tyg, fill="value", label = round(liczba_zam,2))) +
+  geom_bar(stat = 'identity') +
+  geom_text(position = position_dodge(width = 1), vjust = 10, size = 3.5)+
+  theme(legend.position = "none") +
+  labs(title = "Średnia liczba zamówień w dniach tygodnia",
+        x="dni tygodnia",
+        y="Ilość")
+
+
+```
+<br>
+<div class=text-justify>
+Wtorki i soboty to dni kiedy klienci najchętniej składają zamówienia. Nie można wyróżnić jednego dnia z istotnie najniższą liczbą zamówień.
+Bardziej szczegółowych danych dostarczy nam wizualizacja na wykresie pudełkowym.
+</div>
+<br>
+
+```{r boxplot_wday}
+
+kampania_dni %>% ggplot(aes(x=dzien_tyg, y=liczba_zam))+
+  geom_boxplot() +
+  labs(title = "Boxplot: Liczba zamówień w dniach tygodnia",
+       x="dzien tygodnia",
+       y="liczba zamówień")
+
+```
+
+<br>
+<div class=text-justify>
+Liczba zamówień na wykresie pudełkowym obrazuje, że wszystkie dni mają medianę na podobynm poziomie (3-4 zamówienia). Jednak wtorek, sobota i niedziela są bardziej podatne na odchylenia w kierunku większej ilości zamówień (długie wąsy górne)
+</div>
+<br>
+
+Spróbujemy wykluczyć hipotezę, że na te odchylenia miały wpływ jedynie dni tygodnia, bez udziału wpływu budżetu reklamowego.
+
+```{r outliers}
+kampania_dni %>% ggplot(aes(x=budzet, y = liczba_zam, colour= dzien_tyg))+
+  geom_point(size = 3) +
+   scale_color_hue(l=70, c=60, h = c(30,350)) +
+  labs(x="Budżet",
+       y="liczba zamówień",
+       title = "Scatterplot: Budżet vs Liczba zamówień")
+
+
+```
+
+
+|      Widzimy, że obserwacje odchylone i odstające w sobotę i niedzielę wiązały się z największymi nakładami reklamowymi (4 maksymalnie wychylone punkty względem osi poziomej) Dlatego hipoteza, że to nakłady reklamowe decydowały o odchyleniach w wyżej wspomnianych dniach tygodnia wydaje się bliższa rzeczywistości, niż hipoteza o efekcie tygodnia, którą najprawdopodbiej odrzucimy.
+
+|      Aby zweryfikować hipotezy o wpływie dni tygodnia przeprowadzimy dwuczynnikową analizę wariancji z interakcją. Zbadaniu wpływu na liczbę zamówień zostaną poddane trzy czynniki: dzień tygodnia, budżet oraz interakcja dnia tygodnia z budżetem (być może tylko któryś dzień tygodnia w połączeniu z budżetem daje istotnie różne wyniki)
+
+```{r anova}
+two_way_anova <- aov(liczba_zam ~ dzien_tyg * budzet, data = kampania_dni)
+summary(two_way_anova)
+```
+<div class=text-justify>
+<br>
+Wyniki analizy wariancji mówią nam, że **jedynie czynnik budżetu istotnie wpływa na liczbę zamówień.** Ostatecznie odrzucamy hipotezę mówiącą o efekcie dnia tygodnia.
+
+<br>
+
+|      Zarówno w tym teście jak i poprzednim rozdziale o korelacji, zauważyliśmy, że budżet reklamowy ma istotny, i silny wpływ na zamówienia. Mimo to, musimy założyć, że ten wpływ ma swój ograniczony zakres. Dlatego zakładamy, że istnieje punkt przegięcia - punkt w którym dodatkowe nakłady nie dają proporcjonalnych korzyści. Poniższe dwa wykresy mogą stanowić ku temu przesłankę.
+</div>
+<br>
+
+```{r plotting_dni_tyg, results = F}
+
+dni_tyg_plot <- dni_tyg_df %>%
+  select(dzien_tyg, liczba_zam, budzet) %>%
+  pivot_longer(cols=c("liczba_zam", "budzet"), names_to = "variable", values_to = "value")
+
+dni_tyg_plot$variable <-  as.factor(dni_tyg_plot$variable)
+dni_tyg_plot$variable <- factor(dni_tyg_plot$variable, levels = c("liczba_zam", "budzet"))
+
+dni_tyg_plot %>% ggplot(aes(x=dzien_tyg, y=value, fill = variable, label = round(value,1)))+
+  geom_bar(stat='identity', position='dodge') +
+  labs(title = "Średnia liczba zamowien i średnie Wydatki na reklamę w dniach tygodnia",
+       x="dni tygodnia")+
+  geom_text(vjust = 1.1, position = position_dodge(width = 1), size = 3.5) +
+  facet_wrap(vars(variable), strip.position = "left", scales="free", labeller = as_labeller(c(liczba_zam= "średnia liczba zamówień", budzet="średnie wydatki na reklamę [zł]"))) + ylab(NULL) +
+     theme(strip.background = element_blank(),
+           strip.placement = "outside")
+```
+
+|      Widzimy, że zwiększone wydatki w niedziele nie znalazły odzwierciedlenia w liczbie zamówień.
+
+<br>
+
+```{r zam_budzet_ratio}
+dni_tyg_robocze_2 <- dni_tyg_df %>%
+  mutate(zam_bud_ratio = liczba_zam/budzet) %>%
+  select(dzien_tyg, zam_bud_ratio)
+
+dni_tyg_robocze_2 %>% ggplot(aes(x=dzien_tyg, y=zam_bud_ratio, label = round(zam_bud_ratio,3), fill = "W/P ratio"))+
+  geom_bar(stat="identity", position = "dodge") +
+  labs(title = "Ratio: Zamówienia/Wydatki reklamowe",
+       y="Zamówienia/Budzet ratio",
+       x="dzień tygodnia") +
+  geom_text(position = position_dodge(width = 1), vjust = 10)+
+  theme(legend.position = "none")
+```
+
+W efekcie wskaźnik efektywności (iloraz: zamówienia/budżet) jest najniższy właśnie dla niedzieli. Zagadnienie punktu przegięcia będzie rozwijane w kolejnych zakładkach.
+<br>
+<br>
+<br>
+<br>
+
+
+### Pogoda i zakażenia
+
+<br>
+<div class=text-justify>
+|      Do analizy włączmy inny czynnik, który być może, okaże się również istotny: kolor punktów będzie reprezentował liczbę odnotowanych pozytywnych przypadków COVID w Polsce.
+</div>
+<br>
+
+```{r scatterplot_cov}
+kampania_dni %>% ggplot(aes(x = budzet, y = przychod, color = zakazenia_przedzial)) +
+  geom_point(size = 3.5)
+
+```
+
+<br>
+<div class=text-justify>
+|      Po kolorze punktów, widzimy, że wysoka liczba zachorowań wcale nie znajdowała odbicia w zwiększonych przychodach. Najbardziej przychodowe dni przypadały wtedy, gdy liczba zachorowań oscylowała w przedziale 5-10 tys nowych zakażeń. Mogło to być związane z wpływem psychologicznym i niepokojem, kiedy liczba zakażeń zaczęła gwałtownie rosnąć, a może to efekt sezonu, kiedy czapki z daszkiem najlepiej nadają się do noszenia. Spróbujmy stworzyć ten sam wykres, ale tym razem kolor będzie reprezentował miesiąc.
+</div>
+```{r scatterplot_mm}
+kampania_dni %>% ggplot(aes(x = budzet, y = przychod, color = miesiac)) +
+  geom_point(size = 3.3)
+
+```
+
+Widzimy, że największe przychody są ściśle przywiązane do października.
+
+<br>
+
+```{r plot_line_mm}
+kampania_dni %>% ggplot(aes(x=dzien, y=przychod, color = miesiac )) +
+  geom_line()+
+  labs(title= "Przychody w czasie")
+```
+
+Powyższy wykres potwierdza, że sklep miał największy ruch w październiku 
+
+<br>
+
+```{r plot_line_facet}
+
+kam_covid_plot <- kampania_dni %>%
+  pivot_longer(cols = c("przychod", "temp","nowe_zakazenia", "budzet" ), names_to ="variable", values_to = "value")
+kam_covid_plot$variable <- factor(kam_covid_plot$variable, levels = c("przychod","temp","nowe_zakazenia", "budzet") )
+
+kam_covid_plot %>% ggplot(aes(x=dzien, y = value)) +
+  geom_line()+
+  facet_wrap(vars(variable), scales = "free_y", ncol=1, labeller = as_labeller(c(nowe_zakazenia= "Nowe zakażenia", przychod=       "Przychód", temp="Temperatura st.C", budzet = "Wydatki reklamowe"))) + ylab(NULL) +
+     theme(strip.placement = "outside")
+
+```
+
+<br>
+
+Na powyższych wykresach widzimy, że przychód zaczyna spadać w drugiej połowie października, a w tym momencie:
+
+* temperatura zaczyna łagodnie spadać
+* nowe zakażenia osiągają maxima, chwilowo spadają, by potem ponownie zaliczyć gwałtowny przyrost
+* utrzymywane są nakłady reklamowe
+
+<br>
+
+Ten sam wykres z "zoomem" na październik:
+```{r plot_line_facet_2}
+
+kam_covid_plot_2 <- kam_covid_plot %>% 
+  filter(dzien> "2020-10-07", dzien<"2020-10-28")
+
+kam_covid_plot_2 %>% ggplot(aes(x=dzien, y = value)) +
+  geom_line()+
+  facet_wrap(vars(variable), scales = "free_y", ncol=1, labeller = as_labeller(c(nowe_zakazenia= "Nowe zakażenia", przychod=       "Przychód", temp="Temperatura st.C", budzet = "Wydatki reklamowe"))) + ylab(NULL) +
+     theme(strip.placement = "outside")
+
+```
+<br>
+<br>
+
+
+*źródła: baza danych Michała Rogalskiego; stacja pomiarowa w Poznaniu http://www.pimr.poznan.pl/*
+
+### Sezonowość
+
+<br>
+<div class=text-justify>
+
+|      W poprzednim rozdziale zauważyliśmy, że mimo utrzymania wydatków reklamowych i wzrostu liczby zakażeń, przychody ze sprzedaży zaczęły gwałtownie spadać w drugiej połowie października. Fakt, że tak silnie skorelowana zmienna jak wydatki reklamowe przestały stymulować popyt, oznacza, że musimy poszukać innego czynnika, który wyjaśniałby zachowanie przychodów. W związku ze spadkiem temparatur i liczbie słonecznych dni, racjonalną hipotezą jest twierdzenie o sezonowości w sprzedaży czapek. Aby zweryfikować tę hipotezę posłużymy się testem Chowa. Idea testu polega na arbitralnym wyborze punktu zwrotnego w czasie i sprawdzenie, czy parametry modelów przed i po tym punkcie istotnie różnią się od siebie.**Hipotezę zerową dla naszego przypadku możemy sformułować następująco: model opisujący relację między wydatkami a przychodami jest taki sam dla okresu do 21 października (on-season) jak dla okresu od 22 października (off-season) **
+</div>
+<br>
+Test Chowa:
+
+```{r chow_test}
+onseason <- kampania_dni %>%
+  filter(dzien<"2020-10-22")
+przychod_on <- onseason$przychod
+budzet_on <- onseason$budzet
+
+offseason <- kampania_dni %>%
+  filter(dzien>"2020-10-21", dzien <"2020-12-05")
+
+przychod_off <- offseason$przychod
+budzet_off <- offseason$budzet
+
+chow.test(przychod_on, budzet_on, przychod_off, budzet_off)
+
+```
+<div class=text-justify>
+Wynik testu daje nam podstawy do odrzucenia hipotezy zerowej mówiącej o braku sezonowości. Zatem zasadne jest osobne spojrzenie na relację wydatki - przychód w on-seasonie i off-seasonie.
+Spróbujmy opisać tę relację w tych dwóch przypadkach:
+</div>
+<br>
+<br>
+**Model regresji liniowej: przychód ~ wydatki On-season**
+```{r lr_on}
+ggplotRegression <- function (fit) {  
+  require(ggplot2)  
+  ggplot(fit$model, aes_string(x = names(fit$model)[2], y = names(fit$model)[1])) + 
+    geom_point() +
+    stat_smooth(method = "lm", col = "red")
+}
+
+
+lr_on <- lm(przychod_on ~ budzet_on, data=onseason)
+lr_off <- lm(przychod_off ~ budzet_off, data=offseason)
+summary(lr_on)
+ggplotRegression(lr_on) + labs(title = "Regresja liniowa: przychód ~ wydatki; On-season ")
+```
+
+<br>
+<div class=text-justify>
+**Interpretacja:** W powyższym modelu regresji liniowej, zmienność wydatków na reklamę wyjaśnia zmiany w przychodach w 72% (wskaźnik determinacji R^2 = 0.7196), co można ocenić na bardzo dobre dopasowanie modelu. Współczynnik regresji *beta = 8.116* mówi, że w on-season'ie wzorst wydatków reklamowych o 100 zł przynosi wzrost dochodów o 811.6 zł
+</div>
+<br> 
+<br> 
+**Model regresji liniowej: przychód ~ wydatki Off-season **
+```{r lr_off}
+
+summary(lr_off)
+ggplotRegression(lr_off) + labs(title = "Regresja liniowa: przychód ~ wydatki; Off-season ")
+```
+<br>
+<div class=text-justify]>
+**Interpretacja:** W powyższym modelu regresji liniowej dla **off-seasonu**, zmienność wydatków na reklamę wyjaśnia zmiany w przychodach w 19% (wskaźnik determinacji R^2 = 0.1894), co oceniamy na bardzo niskie dopasowanie, a tym samym uznajemy, że model ten nie jest satysfakcjonującym narzędziem do opisu rzeczywistości. Można zatem twierdzić, że wydatki na reklamę mają bardzo słaby wpływ na przychody w off-season'ie.
+</div>
